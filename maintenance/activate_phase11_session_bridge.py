@@ -25,7 +25,7 @@ if(p.indexOf("d:/computer/adobe/audition/au_controller/tests/")!=0||d.dirty)thro
     for i in range(30):
         response=c._run_jsx('''
 if(app.documents.length){var d=app.documents[app.documents.length-1],p=String(d.path).replace(/\\\\/g,"/").toLowerCase();
-if(p.indexOf("d:/computer/adobe/audition/tests/")!=0||d.dirty)throw "Unexpected document; stop";
+if(p.indexOf("d:/computer/adobe/audition/au_controller/tests/")!=0||d.dirty)throw "Unexpected document; stop";
 d.activate();out("CLOSE",d.closeDocument());}else out("EMPTY",true);
 ''','phase11_restart_close',30)
         if response.get('EMPTY')=='true':break
