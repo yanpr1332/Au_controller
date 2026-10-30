@@ -18,7 +18,7 @@ Copyright © 2026 Yan Pengrui · MIT License（自有源码；第三方 Adobe SD
 
 > 第十四轮正在排查桌面工具启动问题；新增频谱坐标规划，不包含GUI操作。当前131个公开方法，详见 `docs/Audition_26_phase14_20261030.md`。
 
-**工作区** `D:\computer\Adobe\Audition`  
+**工作区** `D:\computer\Adobe\Audition\Au_controller`  
 **宿主** Audition 26.0.0 / Windows 11；外部音频服务为 WSL Debian FFmpeg 7.1.3。
 
 ## 第九轮历史验收（冻结基线）
@@ -63,7 +63,7 @@ Copyright © 2026 Yan Pengrui · MIT License（自有源码；第三方 Adobe SD
 ## 复验
 
 ```powershell
-cd D:\computer\Adobe\Audition
+cd D:\computer\Adobe\Audition\Au_controller
 python -B maintenance\verify_workspace.py --sdk --full-tests
 ```
 

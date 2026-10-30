@@ -2,7 +2,7 @@ param([switch]$Restore)
 $ErrorActionPreference='Stop'
 if(Get-Process -Name 'Adobe Premiere Pro' -ErrorAction SilentlyContinue){throw 'Premiere must be fully exited'}
 $layoutRoot='C:\Users\LENOVO\Documents\Adobe\Premiere Pro\26.0\Profile-LENOVO\Layouts'
-$backupRoot='D:\computer\Adobe\Audition\backups\phase18_pr_layouts'
+$backupRoot='D:\computer\Adobe\Audition\Au_controller\backups\phase18_pr_layouts'
 if(-not $Restore){
  if(Test-Path -LiteralPath $backupRoot){throw 'Probe backup already exists'}
  New-Item -ItemType Directory -Path $backupRoot | Out-Null

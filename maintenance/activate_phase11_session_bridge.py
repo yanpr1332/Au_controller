@@ -13,13 +13,13 @@ from audition_controller import AuditionController as C
 if __name__ == '__main__':
     c=C()
     binary=ROOT/'sdk/session_bridge/build/ControllerSessionBridge.ases'
-    target=ROOT/'Adobe Audition 2026/PlugIns/Session/ControllerSessionBridge.ases'
+    target=c.audition_exe.parent/'PlugIns/Session/ControllerSessionBridge.ases'
     if not binary.is_file(): raise RuntimeError('Build the SDK plugin first')
     # Preflight *every* document before closing even one owned QA document.
     print(c._run_jsx('''
 for(var i=0;i<app.documents.length;i++){
 var d=app.documents[i],p=String(d.path).replace(/\\\\/g,"/").toLowerCase();
-if(p.indexOf("d:/computer/adobe/audition/tests/")!=0||d.dirty)throw "Non-QA or unsaved document present; no restart";
+if(p.indexOf("d:/computer/adobe/audition/au_controller/tests/")!=0||d.dirty)throw "Non-QA or unsaved document present; no restart";
 }out("SAFE",true);
 ''','phase11_restart_preflight',30),flush=True)
     for i in range(30):
