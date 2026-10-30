@@ -1,0 +1,79 @@
+[
+  {
+    "id": "AU112",
+    "name": "Track arm",
+    "status": "verified_native_live",
+    "evidence": "tests/receipts/phase09_native_acceptance.json",
+    "qualification": "QA AudioTrack.armed true/false and restore from real native DOM; no recording/hardware"
+  },
+  {
+    "id": "AU113",
+    "name": "Track visibility",
+    "status": "verified_native_live",
+    "evidence": "tests/receipts/phase09_native_acceptance.json",
+    "qualification": "QA AudioTrack.visible false/true native host roundtrip"
+  },
+  {
+    "id": "AU145",
+    "name": "Marker type",
+    "status": "verified_native_live",
+    "evidence": "tests/receipts/phase09_native_markers.json",
+    "qualification": "Cue point/range and Subclip marker type persisted and reopened; CD Track rejected by this host"
+  },
+  {
+    "id": "AU157",
+    "name": "Favorite batch",
+    "status": "verified_native_live",
+    "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+    "qualification": "Three QA files: Normalize to -3 dB Favorite via Audition WaveDocument API; not arbitrary favorite presets"
+  },
+  {
+    "id": "AU158",
+    "name": "文件批量打开",
+    "status": "verified_native_live",
+    "evidence": "tests/receipts/phase09_native_acceptance.json",
+    "qualification": "Three QA files sequential native open/inspect/close; not user-selected media in production"
+  },
+  {
+    "id": "AU160",
+    "name": "批量 MP3",
+    "status": "verified_offline",
+    "evidence": "tests/receipts/phase09_offline_batch_acceptance.json",
+    "qualification": "Two real MP3 output files with verified FFprobe and hashes; WSL FFmpeg, not Audition Batch UI"
+  },
+  {
+    "id": "AU161",
+    "name": "批量 FLAC",
+    "status": "verified_offline",
+    "evidence": "tests/receipts/phase08_real_delivery.json",
+    "qualification": "Two FLAC media outputs by Debian FFmpeg with independent format probes"
+  },
+  {
+    "id": "AU162",
+    "name": "批量重采样",
+    "status": "verified_native_live",
+    "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+    "qualification": "Three files resampled to 32k 16-bit PCM by native Audition SaveAsDocument, decoded after export"
+  },
+  {
+    "id": "AU163",
+    "name": "批量命名",
+    "status": "verified_offline",
+    "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+    "qualification": "Python-generated safe suffix names for six Audition-native WAV exports; not native Batch Rename UI"
+  },
+  {
+    "id": "AU166",
+    "name": "失败隔离",
+    "status": "verified_offline",
+    "evidence": "tests/receipts/phase08_real_delivery.json",
+    "qualification": "Deliberately missing media fails in isolated FFmpeg batch; two other outputs pass"
+  },
+  {
+    "id": "AU167",
+    "name": "批量响度",
+    "status": "verified_offline",
+    "evidence": "tests/receipts/phase09_offline_batch_acceptance.json",
+    "qualification": "Two actual two-pass FFmpeg loudnorm masters with targets and validation, not Audition Match Loudness"
+  }
+]

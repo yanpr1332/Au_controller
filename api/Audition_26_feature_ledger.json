@@ -1,0 +1,3357 @@
+{
+  "total": 384,
+  "counts": {
+    "blocked_host_runtime": 2,
+    "blocked_native_api": 1,
+    "cep_install_pending": 14,
+    "existing_legacy_recheck": 2,
+    "not_verified": 18,
+    "partial_native_live": 1,
+    "sdk_or_hardware_required": 13,
+    "ui_or_media_pending": 56,
+    "verified_hybrid_sesx_reopened": 27,
+    "verified_installed_not_loaded": 1,
+    "verified_native_live": 59,
+    "verified_offline": 126,
+    "verified_offline_ffmpeg": 52,
+    "verified_offline_heuristic": 5,
+    "verified_readonly_host": 4,
+    "verified_static_only": 3
+  },
+  "features": [
+    {
+      "id": "AU001",
+      "category": "运行环境",
+      "name": "启动状态",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU002",
+      "category": "运行环境",
+      "name": "版本及构建号",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU003",
+      "category": "运行环境",
+      "name": "活跃文档",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU004",
+      "category": "运行环境",
+      "name": "已打开文档",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU005",
+      "category": "运行环境",
+      "name": "DOM 对象反射",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU006",
+      "category": "运行环境",
+      "name": "只读命令枚举",
+      "access_route": "ExtendScript",
+      "status": "verified_readonly_host",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "api\\Audition_26_native_menu_registry.json",
+      "qualification": "Audition Win32 menu command enumeration verified; not event subscribe."
+    },
+    {
+      "id": "AU007",
+      "category": "运行环境",
+      "name": "命令状态",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU008",
+      "category": "运行环境",
+      "name": "原生命令调用",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+      "qualification": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+    },
+    {
+      "id": "AU009",
+      "category": "运行环境",
+      "name": "事件订阅",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU010",
+      "category": "运行环境",
+      "name": "停止播放",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase06_native_transport_acceptance.json",
+      "qualification": "Native QA playhead, stop and state restoration verified in host."
+    },
+    {
+      "id": "AU011",
+      "category": "运行环境",
+      "name": "未保存检测",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+      "qualification": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+    },
+    {
+      "id": "AU012",
+      "category": "运行环境",
+      "name": "安全任务超时",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase08_transport_faults.json",
+      "qualification": "Mocked bounded controller timeout and cleanup; does NOT prove real Audition-host cancellation or runtime recovery."
+    },
+    {
+      "id": "AU013",
+      "category": "文件与输入输出",
+      "name": "WAV 打开",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU014",
+      "category": "文件与输入输出",
+      "name": "MP3 打开",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+      "qualification": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+    },
+    {
+      "id": "AU015",
+      "category": "文件与输入输出",
+      "name": "FLAC 打开",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+      "qualification": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+    },
+    {
+      "id": "AU016",
+      "category": "文件与输入输出",
+      "name": "多文档",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+      "qualification": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+    },
+    {
+      "id": "AU017",
+      "category": "文件与输入输出",
+      "name": "新建空波形",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU018",
+      "category": "文件与输入输出",
+      "name": "另存 WAV",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU019",
+      "category": "文件与输入输出",
+      "name": "原生 MP3",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU020",
+      "category": "文件与输入输出",
+      "name": "重采样导出",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU021",
+      "category": "文件与输入输出",
+      "name": "位深转换",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_float_to_pcm16.json",
+      "qualification": "Float WAV to PCM16: deterministic TPDF or first-order error-feedback. Not Audition preset."
+    },
+    {
+      "id": "AU022",
+      "category": "文件与输入输出",
+      "name": "Dither",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_float_to_pcm16.json",
+      "qualification": "Float WAV to PCM16: deterministic TPDF or first-order error-feedback. Not Audition preset."
+    },
+    {
+      "id": "AU023",
+      "category": "文件与输入输出",
+      "name": "Noise Shaping",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_float_to_pcm16.json",
+      "qualification": "Float WAV to PCM16: deterministic TPDF or first-order error-feedback. Not Audition preset."
+    },
+    {
+      "id": "AU024",
+      "category": "文件与输入输出",
+      "name": "文件格式对象",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU025",
+      "category": "文件与输入输出",
+      "name": "元数据保留",
+      "access_route": "ExtendScript",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_tag_delivery.json",
+      "qualification": "WAV BEXT / MP3 ID3v2.3 FFprobe roundtrip, not native metadata panel."
+    },
+    {
+      "id": "AU026",
+      "category": "文件与输入输出",
+      "name": "关闭文档",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU027",
+      "category": "波形编辑",
+      "name": "全选",
+      "access_route": "Native/Offline DSP",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU028",
+      "category": "波形编辑",
+      "name": "复制",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "SciPy sample-accurate QA audio cut/copy/paste/delete/silence; not native edit menu."
+    },
+    {
+      "id": "AU029",
+      "category": "波形编辑",
+      "name": "剪切",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "SciPy sample-accurate QA audio cut/copy/paste/delete/silence; not native edit menu."
+    },
+    {
+      "id": "AU030",
+      "category": "波形编辑",
+      "name": "粘贴",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "SciPy sample-accurate QA audio cut/copy/paste/delete/silence; not native edit menu."
+    },
+    {
+      "id": "AU031",
+      "category": "波形编辑",
+      "name": "删除",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "SciPy sample-accurate QA audio cut/copy/paste/delete/silence; not native edit menu."
+    },
+    {
+      "id": "AU032",
+      "category": "波形编辑",
+      "name": "插入静音",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "SciPy sample-accurate QA audio cut/copy/paste/delete/silence; not native edit menu."
+    },
+    {
+      "id": "AU033",
+      "category": "波形编辑",
+      "name": "样本级裁剪",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU034",
+      "category": "波形编辑",
+      "name": "片段反转",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU035",
+      "category": "波形编辑",
+      "name": "淡入淡出",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU036",
+      "category": "波形编辑",
+      "name": "增益",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU037",
+      "category": "波形编辑",
+      "name": "峰值标准化",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU038",
+      "category": "波形编辑",
+      "name": "声道分离",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_channel_split_roundtrip.json",
+      "qualification": "Sterero split and recombine with exact float PCM sample match; not native GUI."
+    },
+    {
+      "id": "AU039",
+      "category": "波形编辑",
+      "name": "单声道合并",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU040",
+      "category": "波形编辑",
+      "name": "立体声混合",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU041",
+      "category": "波形编辑",
+      "name": "通道平衡",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU042",
+      "category": "波形编辑",
+      "name": "播放头位置",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase06_native_transport_acceptance.json",
+      "qualification": "Native QA playhead, stop and state restoration verified in host."
+    },
+    {
+      "id": "AU043",
+      "category": "波形编辑",
+      "name": "分段静音",
+      "access_route": "Native/Offline DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU044",
+      "category": "波形编辑",
+      "name": "操作撤销",
+      "access_route": "Native/Offline DSP",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU045",
+      "category": "频谱与分析",
+      "name": "频谱显示",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU046",
+      "category": "频谱与分析",
+      "name": "频谱修复画笔",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU047",
+      "category": "频谱与分析",
+      "name": "套索频谱选择",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU048",
+      "category": "频谱与分析",
+      "name": "矩形频谱选择",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU049",
+      "category": "频谱与分析",
+      "name": "自动修复",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU050",
+      "category": "频谱与分析",
+      "name": "窄带噪声检测",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU051",
+      "category": "频谱与分析",
+      "name": "工频谱峰",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU052",
+      "category": "频谱与分析",
+      "name": "主频分析",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU053",
+      "category": "频谱与分析",
+      "name": "谱重心",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU054",
+      "category": "频谱与分析",
+      "name": "能量曲线",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU055",
+      "category": "频谱与分析",
+      "name": "谱图导出",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "SciPy Welch spectrum JSON with known dominant frequency; not Audition spectral screenshot."
+    },
+    {
+      "id": "AU056",
+      "category": "频谱与分析",
+      "name": "频谱修复质检",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU057",
+      "category": "修复与降噪",
+      "name": "DeNoise",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase05_ducking_and_mastering.json",
+      "qualification": "External denoising or true-peak-aware mastering; not Audition native processing."
+    },
+    {
+      "id": "AU058",
+      "category": "修复与降噪",
+      "name": "DeReverb",
+      "access_route": "Favorite/UI/DSP",
+      "status": "existing_legacy_recheck",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU059",
+      "category": "修复与降噪",
+      "name": "去 50Hz Hum",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU060",
+      "category": "修复与降噪",
+      "name": "去 60Hz Hum",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU061",
+      "category": "修复与降噪",
+      "name": "去 DC Offset",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU062",
+      "category": "修复与降噪",
+      "name": "去爆破音",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU063",
+      "category": "修复与降噪",
+      "name": "Click Repair",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU064",
+      "category": "修复与降噪",
+      "name": "DeClick",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU065",
+      "category": "修复与降噪",
+      "name": "DeClip",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU066",
+      "category": "修复与降噪",
+      "name": "自适应降噪",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU067",
+      "category": "修复与降噪",
+      "name": "Noise Gate",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU068",
+      "category": "修复与降噪",
+      "name": "High Pass",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU069",
+      "category": "修复与降噪",
+      "name": "Notch",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU070",
+      "category": "修复与降噪",
+      "name": "对白增强",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU071",
+      "category": "修复与降噪",
+      "name": "修复前后质检",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU072",
+      "category": "动态与混音效果",
+      "name": "Amplify",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU073",
+      "category": "动态与混音效果",
+      "name": "Normalize",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU074",
+      "category": "动态与混音效果",
+      "name": "压缩器",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU075",
+      "category": "动态与混音效果",
+      "name": "多段压缩",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU076",
+      "category": "动态与混音效果",
+      "name": "扩展器",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU077",
+      "category": "动态与混音效果",
+      "name": "限制器",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU078",
+      "category": "动态与混音效果",
+      "name": "True Peak Limit",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase05_ducking_and_mastering.json",
+      "qualification": "External denoising or true-peak-aware mastering; not Audition native processing."
+    },
+    {
+      "id": "AU079",
+      "category": "动态与混音效果",
+      "name": "自动电平",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU080",
+      "category": "动态与混音效果",
+      "name": "门限",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU081",
+      "category": "动态与混音效果",
+      "name": "去齿音",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU082",
+      "category": "动态与混音效果",
+      "name": "侧链压缩",
+      "access_route": "Favorite/UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU083",
+      "category": "动态与混音效果",
+      "name": "动态 EQ",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU084",
+      "category": "动态与混音效果",
+      "name": "声音饱和",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU085",
+      "category": "动态与混音效果",
+      "name": "峰值保护",
+      "access_route": "Favorite/UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU086",
+      "category": "均衡与空间效果",
+      "name": "Graphic EQ",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU087",
+      "category": "均衡与空间效果",
+      "name": "Parametric EQ",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU088",
+      "category": "均衡与空间效果",
+      "name": "Track EQ",
+      "access_route": "UI/DSP",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase04_real_eq_render.json",
+      "qualification": "Track EQ conservative gain serialized, reopened and Native Mixdown measured; not Hz/dB mapping."
+    },
+    {
+      "id": "AU089",
+      "category": "均衡与空间效果",
+      "name": "FIR Filter",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU090",
+      "category": "均衡与空间效果",
+      "name": "IIR Filter",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU091",
+      "category": "均衡与空间效果",
+      "name": "High Pass",
+      "access_route": "UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU092",
+      "category": "均衡与空间效果",
+      "name": "Low Pass",
+      "access_route": "UI/DSP",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU093",
+      "category": "均衡与空间效果",
+      "name": "Band Pass",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU094",
+      "category": "均衡与空间效果",
+      "name": "Notch Filter",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU095",
+      "category": "均衡与空间效果",
+      "name": "Convolution Reverb",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU096",
+      "category": "均衡与空间效果",
+      "name": "Studio Reverb",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU097",
+      "category": "均衡与空间效果",
+      "name": "Delay",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU098",
+      "category": "均衡与空间效果",
+      "name": "Echo",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU099",
+      "category": "均衡与空间效果",
+      "name": "Chorus",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU100",
+      "category": "均衡与空间效果",
+      "name": "Flanger",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU101",
+      "category": "均衡与空间效果",
+      "name": "Pitch Shift",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU102",
+      "category": "均衡与空间效果",
+      "name": "Time Stretch",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Debian FFmpeg DSP, NOT Audition native effect or VST rack."
+    },
+    {
+      "id": "AU103",
+      "category": "均衡与空间效果",
+      "name": "Stereo Expand",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU104",
+      "category": "均衡与空间效果",
+      "name": "VST 插件",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU105",
+      "category": "多轨结构",
+      "name": "新建多轨",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU106",
+      "category": "多轨结构",
+      "name": "打开 SESX",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_split_acceptance.json",
+      "qualification": "Native SESX project opened and mixdown performed."
+    },
+    {
+      "id": "AU107",
+      "category": "多轨结构",
+      "name": "保存 Session",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU108",
+      "category": "多轨结构",
+      "name": "另存 Session",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU109",
+      "category": "多轨结构",
+      "name": "Track rename",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU110",
+      "category": "多轨结构",
+      "name": "Track mute",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU111",
+      "category": "多轨结构",
+      "name": "Track solo",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU112",
+      "category": "多轨结构",
+      "name": "Track arm",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_acceptance.json",
+      "qualification": "QA AudioTrack.armed true/false and restore from real native DOM; no recording/hardware"
+    },
+    {
+      "id": "AU113",
+      "category": "多轨结构",
+      "name": "Track visibility",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_acceptance.json",
+      "qualification": "QA AudioTrack.visible false/true native host roundtrip"
+    },
+    {
+      "id": "AU114",
+      "category": "多轨结构",
+      "name": "Track fader",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_track_controls.json",
+      "qualification": "Track Fader 0.8 serialized and Audition Mixdown lower peak than baseline."
+    },
+    {
+      "id": "AU115",
+      "category": "多轨结构",
+      "name": "Track pan",
+      "access_route": "ExtendScript/SESX",
+      "status": "existing_legacy_recheck",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU116",
+      "category": "多轨结构",
+      "name": "Clip move",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU117",
+      "category": "多轨结构",
+      "name": "Clip gain",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase06_native_arrangement_acceptance.json",
+      "qualification": "Native SESX clip linear gains and layered native Mixdown; individual levels not isolated."
+    },
+    {
+      "id": "AU118",
+      "category": "多轨结构",
+      "name": "Clip fade in",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase05_native_clip_trim_fade_acceptance.json",
+      "qualification": "Native fade-in/out modified, session reopened and rendered."
+    },
+    {
+      "id": "AU119",
+      "category": "多轨结构",
+      "name": "Clip fade out",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase05_native_clip_trim_fade_acceptance.json",
+      "qualification": "Native fade-in/out modified, session reopened and rendered."
+    },
+    {
+      "id": "AU120",
+      "category": "多轨结构",
+      "name": "Track EQ",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU121",
+      "category": "多轨结构",
+      "name": "Track effects",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU122",
+      "category": "多轨结构",
+      "name": "Track buses",
+      "access_route": "ExtendScript/SESX",
+      "status": "partial_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU123",
+      "category": "多轨结构",
+      "name": "子混音",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU124",
+      "category": "多轨结构",
+      "name": "剪辑插入",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_split_acceptance.json",
+      "qualification": "Native clip insert/split SESX, Audition reopened; sample-accurate mixdown."
+    },
+    {
+      "id": "AU125",
+      "category": "多轨结构",
+      "name": "剪辑拆分",
+      "access_route": "ExtendScript/SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_native_split_acceptance.json",
+      "qualification": "Native clip insert/split SESX, Audition reopened; sample-accurate mixdown."
+    },
+    {
+      "id": "AU126",
+      "category": "多轨结构",
+      "name": "多轨信封",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU127",
+      "category": "多轨结构",
+      "name": "5.1 路由",
+      "access_route": "ExtendScript/SESX",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU128",
+      "category": "播放与录音",
+      "name": "Play",
+      "access_route": "ExtendScript/UI",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_native_transport_acceptance.json",
+      "qualification": "Audition transport was operated live in disposable QA session then restored."
+    },
+    {
+      "id": "AU129",
+      "category": "播放与录音",
+      "name": "Pause",
+      "access_route": "ExtendScript/UI",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_native_transport_acceptance.json",
+      "qualification": "Audition transport was operated live in disposable QA session then restored."
+    },
+    {
+      "id": "AU130",
+      "category": "播放与录音",
+      "name": "Stop",
+      "access_route": "ExtendScript/UI",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_native_transport_acceptance.json",
+      "qualification": "Audition transport was operated live in disposable QA session then restored."
+    },
+    {
+      "id": "AU131",
+      "category": "播放与录音",
+      "name": "Record",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU132",
+      "category": "播放与录音",
+      "name": "Loop",
+      "access_route": "ExtendScript/UI",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_native_transport_acceptance.json",
+      "qualification": "Audition transport was operated live in disposable QA session then restored."
+    },
+    {
+      "id": "AU133",
+      "category": "播放与录音",
+      "name": "Seek",
+      "access_route": "ExtendScript/UI",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_native_transport_acceptance.json",
+      "qualification": "Audition transport was operated live in disposable QA session then restored."
+    },
+    {
+      "id": "AU134",
+      "category": "播放与录音",
+      "name": "预卷",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU135",
+      "category": "播放与录音",
+      "name": "录音监测",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU136",
+      "category": "播放与录音",
+      "name": "输入设备",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU137",
+      "category": "播放与录音",
+      "name": "录音待命",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU138",
+      "category": "播放与录音",
+      "name": "ASIO",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU139",
+      "category": "播放与录音",
+      "name": "录音倒计时",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU140",
+      "category": "播放与录音",
+      "name": "录音轨道映射",
+      "access_route": "ExtendScript/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU141",
+      "category": "标记与元数据",
+      "name": "Marker add",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU142",
+      "category": "标记与元数据",
+      "name": "Marker range",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU143",
+      "category": "标记与元数据",
+      "name": "Marker name",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU144",
+      "category": "标记与元数据",
+      "name": "Marker description",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU145",
+      "category": "标记与元数据",
+      "name": "Marker type",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_markers.json",
+      "qualification": "Cue point/range and Subclip marker type persisted and reopened; CD Track rejected by this host"
+    },
+    {
+      "id": "AU146",
+      "category": "标记与元数据",
+      "name": "Marker readback",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU147",
+      "category": "标记与元数据",
+      "name": "Marker export",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_xmp_chapter_acceptance.json",
+      "qualification": "Native Audition XMP source parsed; WAV chapter export via SciPy."
+    },
+    {
+      "id": "AU148",
+      "category": "标记与元数据",
+      "name": "批量标记",
+      "access_route": "ExtendScript",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase06_native_xmp_edit_acceptance.json",
+      "qualification": "Multiple Native XMP marker operations, 3 markers reopened."
+    },
+    {
+      "id": "AU149",
+      "category": "标记与元数据",
+      "name": "XMP 读",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_xmp_chapter_acceptance.json",
+      "qualification": "Native Audition XMP source parsed; WAV chapter export via SciPy."
+    },
+    {
+      "id": "AU150",
+      "category": "标记与元数据",
+      "name": "XMP 写",
+      "access_route": "ExtendScript",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_native_xmp_edit_acceptance.json",
+      "qualification": "Edited SESX XMP and reopened in Audition successfully."
+    },
+    {
+      "id": "AU151",
+      "category": "标记与元数据",
+      "name": "ID3 标签",
+      "access_route": "ExtendScript",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_tag_delivery.json",
+      "qualification": "WAV BEXT / MP3 ID3v2.3 FFprobe roundtrip, not native metadata panel."
+    },
+    {
+      "id": "AU152",
+      "category": "标记与元数据",
+      "name": "BWF 时间戳",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU153",
+      "category": "标记与元数据",
+      "name": "音乐信息同步",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU154",
+      "category": "批量和 Favorites",
+      "name": "Favorite apply",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU155",
+      "category": "批量和 Favorites",
+      "name": "Favorite list",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU156",
+      "category": "批量和 Favorites",
+      "name": "Favorite create",
+      "access_route": "ExtendScript",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU157",
+      "category": "批量和 Favorites",
+      "name": "Favorite batch",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+      "qualification": "Three QA files: Normalize to -3 dB Favorite via Audition WaveDocument API; not arbitrary favorite presets"
+    },
+    {
+      "id": "AU158",
+      "category": "批量和 Favorites",
+      "name": "文件批量打开",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_acceptance.json",
+      "qualification": "Three QA files sequential native open/inspect/close; not user-selected media in production"
+    },
+    {
+      "id": "AU159",
+      "category": "批量和 Favorites",
+      "name": "批量 WAV",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU160",
+      "category": "批量和 Favorites",
+      "name": "批量 MP3",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_offline_batch_acceptance.json",
+      "qualification": "Two real MP3 output files with verified FFprobe and hashes; WSL FFmpeg, not Audition Batch UI"
+    },
+    {
+      "id": "AU161",
+      "category": "批量和 Favorites",
+      "name": "批量 FLAC",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase08_real_delivery.json",
+      "qualification": "Two FLAC media outputs by Debian FFmpeg with independent format probes"
+    },
+    {
+      "id": "AU162",
+      "category": "批量和 Favorites",
+      "name": "批量重采样",
+      "access_route": "ExtendScript",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+      "qualification": "Three files resampled to 32k 16-bit PCM by native Audition SaveAsDocument, decoded after export"
+    },
+    {
+      "id": "AU163",
+      "category": "批量和 Favorites",
+      "name": "批量命名",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+      "qualification": "Python-generated safe suffix names for six Audition-native WAV exports; not native Batch Rename UI"
+    },
+    {
+      "id": "AU164",
+      "category": "批量和 Favorites",
+      "name": "任务回滚",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase06_production_bundle_acceptance.json",
+      "qualification": "Production staging and failed-step rollback tested for QA media."
+    },
+    {
+      "id": "AU165",
+      "category": "批量和 Favorites",
+      "name": "结果清单",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU166",
+      "category": "批量和 Favorites",
+      "name": "失败隔离",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase08_real_delivery.json",
+      "qualification": "Deliberately missing media fails in isolated FFmpeg batch; two other outputs pass"
+    },
+    {
+      "id": "AU167",
+      "category": "批量和 Favorites",
+      "name": "批量响度",
+      "access_route": "ExtendScript",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase09_offline_batch_acceptance.json",
+      "qualification": "Two actual two-pass FFmpeg loudnorm masters with targets and validation, not Audition Match Loudness"
+    },
+    {
+      "id": "AU168",
+      "category": "LUFS 与质检",
+      "name": "Integrated LUFS",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU169",
+      "category": "LUFS 与质检",
+      "name": "Short-term LUFS",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_r128_timeline.json",
+      "qualification": "FFmpeg ebur128 meter, not Audition real-time metering panel."
+    },
+    {
+      "id": "AU170",
+      "category": "LUFS 与质检",
+      "name": "Momentary LUFS",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_r128_timeline.json",
+      "qualification": "FFmpeg ebur128 meter, not Audition real-time metering panel."
+    },
+    {
+      "id": "AU171",
+      "category": "LUFS 与质检",
+      "name": "ITU BS1770",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_r128_timeline.json",
+      "qualification": "FFmpeg ebur128 meter, not Audition real-time metering panel."
+    },
+    {
+      "id": "AU172",
+      "category": "LUFS 与质检",
+      "name": "EBU R128",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase06_r128_timeline.json",
+      "qualification": "FFmpeg ebur128 meter, not Audition real-time metering panel."
+    },
+    {
+      "id": "AU173",
+      "category": "LUFS 与质检",
+      "name": "ATSC A85",
+      "access_route": "DSP/UI",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU174",
+      "category": "LUFS 与质检",
+      "name": "True Peak",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU175",
+      "category": "LUFS 与质检",
+      "name": "Sample Peak",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU176",
+      "category": "LUFS 与质检",
+      "name": "RMS",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU177",
+      "category": "LUFS 与质检",
+      "name": "DC Offset",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU178",
+      "category": "LUFS 与质检",
+      "name": "Clipping count",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU179",
+      "category": "LUFS 与质检",
+      "name": "Silence detection",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_session_preflight.json;phase06_r128_timeline.json",
+      "qualification": "Offline signal metrics and JSON reports."
+    },
+    {
+      "id": "AU180",
+      "category": "LUFS 与质检",
+      "name": "Click detection",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_heuristic",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase03_forensics_delivery_acceptance.json",
+      "qualification": "Transient spike candidate analysis, not proof of native repair."
+    },
+    {
+      "id": "AU181",
+      "category": "LUFS 与质检",
+      "name": "Crest Factor",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_session_preflight.json;phase06_r128_timeline.json",
+      "qualification": "Offline signal metrics and JSON reports."
+    },
+    {
+      "id": "AU182",
+      "category": "LUFS 与质检",
+      "name": "Stereo correlation",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU183",
+      "category": "LUFS 与质检",
+      "name": "Frequency centroid",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU184",
+      "category": "LUFS 与质检",
+      "name": "Loudness batch",
+      "access_route": "DSP/UI",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU185",
+      "category": "LUFS 与质检",
+      "name": "JSON 报告",
+      "access_route": "DSP/UI",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_session_preflight.json;phase06_r128_timeline.json",
+      "qualification": "Offline signal metrics and JSON reports."
+    },
+    {
+      "id": "AU186",
+      "category": "文件格式与交付",
+      "name": "PCM16 WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU187",
+      "category": "文件格式与交付",
+      "name": "Float32 WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU188",
+      "category": "文件格式与交付",
+      "name": "PCM24 WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU189",
+      "category": "文件格式与交付",
+      "name": "MP3",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU190",
+      "category": "文件格式与交付",
+      "name": "FLAC",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU191",
+      "category": "文件格式与交付",
+      "name": "AAC M4A",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU192",
+      "category": "文件格式与交付",
+      "name": "Vorbis OGG",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU193",
+      "category": "文件格式与交付",
+      "name": "Opus",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU194",
+      "category": "文件格式与交付",
+      "name": "16k speech WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU195",
+      "category": "文件格式与交付",
+      "name": "44.1k WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU196",
+      "category": "文件格式与交付",
+      "name": "48k WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU197",
+      "category": "文件格式与交付",
+      "name": "96k WAV",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_native_live",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU198",
+      "category": "文件格式与交付",
+      "name": "Mono",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU199",
+      "category": "文件格式与交付",
+      "name": "Stereo",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU200",
+      "category": "文件格式与交付",
+      "name": "Codec validation",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU201",
+      "category": "文件格式与交付",
+      "name": "File hash",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU202",
+      "category": "文件格式与交付",
+      "name": "Batch export",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase02-phase04"
+    },
+    {
+      "id": "AU203",
+      "category": "文件格式与交付",
+      "name": "Overwrite guard",
+      "access_route": "Native/FFmpeg",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU204",
+      "category": "播客和对白",
+      "name": "Dialogue leveling",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU205",
+      "category": "播客和对白",
+      "name": "Music ducking",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU206",
+      "category": "播客和对白",
+      "name": "Multispeaker EQ",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU207",
+      "category": "播客和对白",
+      "name": "Podcast mastering",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU208",
+      "category": "播客和对白",
+      "name": "片头片尾处理",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU209",
+      "category": "播客和对白",
+      "name": "降环境噪声",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU210",
+      "category": "播客和对白",
+      "name": "口腔噪声",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU211",
+      "category": "播客和对白",
+      "name": "语音压缩",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU212",
+      "category": "播客和对白",
+      "name": "LUFS -16",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU213",
+      "category": "播客和对白",
+      "name": "广播 -23",
+      "access_route": "UI/DSP",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests/receipts/phase05_ducking_and_mastering.json;phase06_production_bundle_acceptance.json",
+      "qualification": "External voice/music mastering and production."
+    },
+    {
+      "id": "AU214",
+      "category": "播客和对白",
+      "name": "自动字幕",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU215",
+      "category": "播客和对白",
+      "name": "转录音频",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU216",
+      "category": "播客和对白",
+      "name": "自动角色分离",
+      "access_route": "UI/DSP",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU217",
+      "category": "视频与互操作",
+      "name": "视频音轨引用",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU218",
+      "category": "视频与互操作",
+      "name": "Premiere 往返",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU219",
+      "category": "视频与互操作",
+      "name": "Dynamic Link",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU220",
+      "category": "视频与互操作",
+      "name": "OMF Import",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU221",
+      "category": "视频与互操作",
+      "name": "OMF Export",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU222",
+      "category": "视频与互操作",
+      "name": "AAF Import",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU223",
+      "category": "视频与互操作",
+      "name": "AAF Export",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU224",
+      "category": "视频与互操作",
+      "name": "时间码同步",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU225",
+      "category": "视频与互操作",
+      "name": "素材重链",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU226",
+      "category": "视频与互操作",
+      "name": "5.1 视频混音",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU227",
+      "category": "视频与互操作",
+      "name": "视频同步回放",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU228",
+      "category": "视频与互操作",
+      "name": "音画交付",
+      "access_route": "UI/SDK",
+      "status": "ui_or_media_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU229",
+      "category": "CEP 和 JS 扩展",
+      "name": "Script Dictionary",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU230",
+      "category": "CEP 和 JS 扩展",
+      "name": "Application Commands",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU231",
+      "category": "CEP 和 JS 扩展",
+      "name": "Playhead Panel",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU232",
+      "category": "CEP 和 JS 扩展",
+      "name": "Transport Events",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU233",
+      "category": "CEP 和 JS 扩展",
+      "name": "CSInterface evalScript",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU234",
+      "category": "CEP 和 JS 扩展",
+      "name": "自定义 CEP Panel",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU235",
+      "category": "CEP 和 JS 扩展",
+      "name": "面板命令表",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU236",
+      "category": "CEP 和 JS 扩展",
+      "name": "WebSocket bridge",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU237",
+      "category": "CEP 和 JS 扩展",
+      "name": "Web service",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU238",
+      "category": "CEP 和 JS 扩展",
+      "name": "读写媒体元数据",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU239",
+      "category": "CEP 和 JS 扩展",
+      "name": "CEP 插件安装",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU240",
+      "category": "CEP 和 JS 扩展",
+      "name": "Panel 生命周期",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU241",
+      "category": "AMIO 和 Native SDK",
+      "name": "自定义媒体导入",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU242",
+      "category": "AMIO 和 Native SDK",
+      "name": "自定义媒体导出",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU243",
+      "category": "AMIO 和 Native SDK",
+      "name": "原生 Session 翻译",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU244",
+      "category": "AMIO 和 Native SDK",
+      "name": "自定义格式",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU245",
+      "category": "AMIO 和 Native SDK",
+      "name": "Control Surface",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU246",
+      "category": "AMIO 和 Native SDK",
+      "name": "Fader 双向回读",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU247",
+      "category": "AMIO 和 Native SDK",
+      "name": "控制设备消息",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU248",
+      "category": "AMIO 和 Native SDK",
+      "name": "原生媒体 IO 插件",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU249",
+      "category": "AMIO 和 Native SDK",
+      "name": "第三方 VST3",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU250",
+      "category": "AMIO 和 Native SDK",
+      "name": "C++ SDK 构建",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU251",
+      "category": "AMIO 和 Native SDK",
+      "name": "插件加载",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU252",
+      "category": "AMIO 和 Native SDK",
+      "name": "签名发布",
+      "access_route": "C++ SDK",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU253",
+      "category": "可靠性与工程管理",
+      "name": "安全工作区",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU254",
+      "category": "可靠性与工程管理",
+      "name": "备份",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "Source backup ZIP with per-file SHA256 exists and user workspace untouched."
+    },
+    {
+      "id": "AU255",
+      "category": "可靠性与工程管理",
+      "name": "源文件只读",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU256",
+      "category": "可靠性与工程管理",
+      "name": "拒绝覆盖",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU257",
+      "category": "可靠性与工程管理",
+      "name": "路径预检",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU258",
+      "category": "可靠性与工程管理",
+      "name": "超时处理",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase08_transport_faults.json",
+      "qualification": "Mocked bounded controller timeout and cleanup; does NOT prove real Audition-host cancellation or runtime recovery."
+    },
+    {
+      "id": "AU259",
+      "category": "可靠性与工程管理",
+      "name": "文件 SHA256",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU260",
+      "category": "可靠性与工程管理",
+      "name": "输出后解码",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_channel_split_roundtrip.json",
+      "qualification": "WAV output reopening/decoder readback and sample comparison proved."
+    },
+    {
+      "id": "AU261",
+      "category": "可靠性与工程管理",
+      "name": "固定测试波形",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU262",
+      "category": "可靠性与工程管理",
+      "name": "日志清单",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+    },
+    {
+      "id": "AU263",
+      "category": "可靠性与工程管理",
+      "name": "操作错误报告",
+      "access_route": "Python",
+      "status": "not_verified",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged"
+    },
+    {
+      "id": "AU264",
+      "category": "可靠性与工程管理",
+      "name": "自动回归",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "277-test phase07 unit suite and native QA receipt checkpoint."
+    },
+    {
+      "id": "AU265",
+      "category": "可靠性与工程管理",
+      "name": "恢复说明",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "Recovery backup/README/API docs preserved in workspace; documentation availability verified."
+    },
+    {
+      "id": "AU266",
+      "category": "可靠性与工程管理",
+      "name": "使用文档",
+      "access_route": "Python",
+      "status": "verified_offline",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "Recovery backup/README/API docs preserved in workspace; documentation availability verified."
+    },
+    {
+      "id": "AU267",
+      "category": "可靠性与工程管理",
+      "name": "API 动态发现",
+      "access_route": "Python",
+      "status": "verified_readonly_host",
+      "acceptance": "real generated or inspected artifact plus readback; source unchanged",
+      "evidence": "api\\Audition_26_native_menu_registry.json",
+      "qualification": "Audition Win32 menu command enumeration verified; not event subscribe."
+    },
+    {
+      "id": "AU268",
+      "category": "Native SDK",
+      "name": "MultitrackDocument live reflection",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU269",
+      "category": "Native SDK",
+      "name": "AudioTrackCollection add and remove",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU270",
+      "category": "Native SDK",
+      "name": "AudioClipCollection move preserving time",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU271",
+      "category": "Native SDK",
+      "name": "AudioBusTrackCollection add",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU272",
+      "category": "Native SDK",
+      "name": "AudioBusTrackCollection remove",
+      "access_route": "Native SDK",
+      "status": "blocked_native_api",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU273",
+      "category": "Native SDK",
+      "name": "MultitrackDocument addMarker",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU274",
+      "category": "Native SDK",
+      "name": "Native SESX save and reopen",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU275",
+      "category": "Native SDK",
+      "name": "Native marker save and DOM readback",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU276",
+      "category": "Native SDK",
+      "name": "Audition multitrack Mixdown to Float WAV",
+      "access_route": "Native SDK",
+      "status": "verified_native_live",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU277",
+      "category": "Native SDK",
+      "name": "474 real menu commands discovered",
+      "access_route": "Native SDK",
+      "status": "verified_readonly_host",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU278",
+      "category": "Native SDK",
+      "name": "473 distinct native menu command IDs",
+      "access_route": "Native SDK",
+      "status": "verified_readonly_host",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU279",
+      "category": "Native SESX",
+      "name": "Track to Bus routing and reimport",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU280",
+      "category": "Native SESX",
+      "name": "Native Mixdown through bus",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU281",
+      "category": "Native SESX",
+      "name": "Cycles and dangling bus routes detection",
+      "access_route": "Native SESX",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU282",
+      "category": "Native SESX",
+      "name": "Remove unused QA Bus and native reopen",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU283",
+      "category": "Native SESX",
+      "name": "Reject referenced Bus deletion",
+      "access_route": "Native SESX",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU284",
+      "category": "Native SESX",
+      "name": "Self contained native session media packaging",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU285",
+      "category": "Native SESX",
+      "name": "Native reopen and mix packaged session",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU286",
+      "category": "Native SESX",
+      "name": "Media hash verification and relink",
+      "access_route": "Native SESX",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU287",
+      "category": "Native SESX",
+      "name": "Native EQ serialized parameters roundtrip",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU288",
+      "category": "Native SESX",
+      "name": "Native EQ audible rendered output",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU289",
+      "category": "Native SESX",
+      "name": "Reject dangerous EQ gain values",
+      "access_route": "Native SESX",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU290",
+      "category": "Native SESX",
+      "name": "EQ processing tail length check",
+      "access_route": "Native SESX",
+      "status": "verified_hybrid_sesx_reopened",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU291",
+      "category": "Audio QC",
+      "name": "Approximate oversampled true peak",
+      "access_route": "Audio QC",
+      "status": "verified_offline_heuristic",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU292",
+      "category": "Audio QC",
+      "name": "RMS silence region identification",
+      "access_route": "Audio QC",
+      "status": "verified_offline_heuristic",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU293",
+      "category": "Audio QC",
+      "name": "Click candidate detection",
+      "access_route": "Audio QC",
+      "status": "verified_offline_heuristic",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU294",
+      "category": "Audio QC",
+      "name": "50Hz and 60Hz hum candidates",
+      "access_route": "Audio QC",
+      "status": "verified_offline_heuristic",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU295",
+      "category": "Audio QC",
+      "name": "Stereo anti-phase and mono fold-down",
+      "access_route": "Audio QC",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU296",
+      "category": "Audio QC",
+      "name": "Crest factor frequency band analysis",
+      "access_route": "Audio QC",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU297",
+      "category": "Audio QC",
+      "name": "Podcast broadcast music QC presets",
+      "access_route": "Audio QC",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU298",
+      "category": "Audio QC",
+      "name": "JSON and SHA256 QA reporting",
+      "access_route": "Audio QC",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU299",
+      "category": "Delivery",
+      "name": "Two-pass FFmpeg R128 loudnorm",
+      "access_route": "Delivery",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU300",
+      "category": "Delivery",
+      "name": "Podcast 16 LUFS WAV MP3 actual export",
+      "access_route": "Delivery",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU301",
+      "category": "Delivery",
+      "name": "Broadcast 23 LUFS FLAC actual export",
+      "access_route": "Delivery",
+      "status": "verified_offline_ffmpeg",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU302",
+      "category": "Delivery",
+      "name": "Batch delivery immutable source guard",
+      "access_route": "Delivery",
+      "status": "verified_offline",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU303",
+      "category": "CEP",
+      "name": "Static validation of Audition panel manifest",
+      "access_route": "CEP",
+      "status": "verified_static_only",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU304",
+      "category": "CEP",
+      "name": "User-level CEP panel staged and hash checked",
+      "access_route": "CEP",
+      "status": "verified_installed_not_loaded",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU305",
+      "category": "CEP",
+      "name": "CEP panel loaded inside Audition host",
+      "access_route": "CEP",
+      "status": "cep_install_pending",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU306",
+      "category": "AMIO",
+      "name": "Audition AMIO C++ SDK compile and deploy",
+      "access_route": "AMIO",
+      "status": "sdk_or_hardware_required",
+      "acceptance": "Receipt-backed or explicitly pending"
+    },
+    {
+      "id": "AU307",
+      "category": "Native SESX",
+      "name": "Native clip source trim with sample-accurate bounds",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_hybrid_sesx_reopened",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU308",
+      "category": "Native SESX",
+      "name": "Native clip position after trim readback",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_hybrid_sesx_reopened",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU309",
+      "category": "Native SESX",
+      "name": "Native clip fade-in/out duration editing",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_hybrid_sesx_reopened",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU310",
+      "category": "Native SESX",
+      "name": "Native session lock clip flag readback",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU311",
+      "category": "Native SESX",
+      "name": "Native clip mute flag serialized and guarded",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU312",
+      "category": "Native SESX",
+      "name": "Native clip loop flag serialized and guarded",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU313",
+      "category": "Native SESX",
+      "name": "Native clip editing produced non-clipped real Mixdown",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_hybrid_sesx_reopened",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU314",
+      "category": "Native SESX",
+      "name": "Immutable source and no overwrite clip recipe",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU315",
+      "category": "Audio Production",
+      "name": "FFmpeg voice sidechain-compression mix",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline_ffmpeg",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU316",
+      "category": "Audio Production",
+      "name": "Measured 220Hz background ducking suppression",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline_ffmpeg",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU317",
+      "category": "Audio Production",
+      "name": "Background music restoration after dialogue",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline_ffmpeg",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU318",
+      "category": "Audio Production",
+      "name": "Ducked podcast 16 LUFS target mastering",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline_ffmpeg",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU319",
+      "category": "Audio Production",
+      "name": "Voice/music source hash unchanged after mixing",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU320",
+      "category": "Native SESX",
+      "name": "Parse real Audition XMP Cue markers",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU321",
+      "category": "Native SESX",
+      "name": "Read 48 kHz marker frameRate and region duration",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU322",
+      "category": "Audio Production",
+      "name": "Export 2 sample-accurate chapters from native markers",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU323",
+      "category": "Audio Production",
+      "name": "Chapter fades and WAV readback",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU324",
+      "category": "Audio Production",
+      "name": "Non-destructive chapter no-overwrite guard",
+      "access_route": "Debian FFmpeg / SciPy",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU325",
+      "category": "Native SESX",
+      "name": "Session audit missing media and unresolved file ID",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU326",
+      "category": "Native SESX",
+      "name": "Session audit clip/fade range consistency",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU327",
+      "category": "Native SESX",
+      "name": "Session audit Bus cycles and dangling routes",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU328",
+      "category": "Native SESX",
+      "name": "Session audit high gain EQ safety gate",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU329",
+      "category": "Native SESX",
+      "name": "Write JSON session QA structural report",
+      "access_route": "Native SESX + Audition reopen",
+      "status": "verified_offline",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU330",
+      "category": "CEP",
+      "name": "CEP Manifest AUDT host v11 and CSXS v6 corrected",
+      "access_route": "CEP / AUDT host",
+      "status": "verified_static_only",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU331",
+      "category": "CEP",
+      "name": "CEP Plugin host PlugPlugSetup internal error",
+      "access_route": "CEP / AUDT host",
+      "status": "blocked_host_runtime",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU332",
+      "category": "CEP",
+      "name": "CEP live panel and evalScript callback",
+      "access_route": "CEP / AUDT host",
+      "status": "cep_install_pending",
+      "evidence": "Phase05 tests and tests/receipts/phase05_*.json; for blocked statuses see CEP12-AUDT.log"
+    },
+    {
+      "id": "AU333",
+      "category": "Native Multitrack",
+      "name": "Four-track clip duplication recognized by Audition",
+      "status": "verified_hybrid_sesx_reopened",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_arrangement_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU334",
+      "category": "Native Multitrack",
+      "name": "Native arrangement gains and sample-accurate offsets",
+      "status": "verified_hybrid_sesx_reopened",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_arrangement_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU335",
+      "category": "Native Multitrack",
+      "name": "Audition native 4-track Mixdown 199200 frames",
+      "status": "verified_native_live",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_arrangement_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU336",
+      "category": "Native Multitrack",
+      "name": "Clone clip ID uniqueness and fixture safety guards",
+      "status": "verified_offline",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_arrangement_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU337",
+      "category": "Native Multitrack",
+      "name": "Offline media refusal and non-overwrite arrangement",
+      "status": "verified_offline",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_arrangement_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU338",
+      "category": "Native Multitrack",
+      "name": "Safe restoration and closure of QA Audition documents",
+      "status": "verified_native_live",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_arrangement_closed.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU339",
+      "category": "Native Multitrack",
+      "name": "XMP cue add move rename delete and native reopen",
+      "status": "verified_hybrid_sesx_reopened",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_xmp_edit_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU340",
+      "category": "Native Multitrack",
+      "name": "Audition transport play pause stop seek loop restoration",
+      "status": "verified_native_live",
+      "access_route": "Native Multitrack",
+      "evidence": "tests/receipts/phase06_native_transport_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU341",
+      "category": "External Effects",
+      "name": "Typed whitelist of 29 offline audio effect types",
+      "status": "verified_offline",
+      "access_route": "External Effects",
+      "evidence": "tests/receipts/phase06_effects_batch.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU342",
+      "category": "External Effects",
+      "name": "17 independent FFmpeg audio effect renders",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "External Effects",
+      "evidence": "tests/receipts/phase06_effects_batch.json;phase06_effects_second_batch.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU343",
+      "category": "External Effects",
+      "name": "Denoise declick declip chained repair audio",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "External Effects",
+      "evidence": "tests/receipts/phase06_effects_batch.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU344",
+      "category": "External Effects",
+      "name": "Independent pitch and tempo output verification",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "External Effects",
+      "evidence": "tests/receipts/phase06_effects_batch.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU345",
+      "category": "External Effects",
+      "name": "Gate and silence trim actual audio evidence",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "External Effects",
+      "evidence": "tests/receipts/phase06_effects_second_batch.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU346",
+      "category": "Audio QC",
+      "name": "FFmpeg EBU R128 momentary short term timeline",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Audio QC",
+      "evidence": "tests/receipts/phase06_r128_timeline.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU347",
+      "category": "Audio QC",
+      "name": "Integrated LUFS and true peak profile gate",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Audio QC",
+      "evidence": "tests/receipts/phase06_r128_timeline.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU348",
+      "category": "Metadata",
+      "name": "BWF audio tags with description field roundtrip",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Metadata",
+      "evidence": "tests/receipts/phase06_tag_delivery.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU349",
+      "category": "Metadata",
+      "name": "MP3 ID3v2.3 tags with metadata roundtrip",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Metadata",
+      "evidence": "tests/receipts/phase06_tag_delivery.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU350",
+      "category": "Metadata",
+      "name": "Metadata codec copy and source hash preservation",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Metadata",
+      "evidence": "tests/receipts/phase06_tag_delivery.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU351",
+      "category": "Production",
+      "name": "End to end 10-step declarative audio production",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Production",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU352",
+      "category": "Production",
+      "name": "Staged publication and failure rollback",
+      "status": "verified_offline",
+      "access_route": "Production",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU353",
+      "category": "Production",
+      "name": "Input source hashes and output manifest integrity",
+      "status": "verified_offline",
+      "access_route": "Production",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU354",
+      "category": "Production",
+      "name": "Dependency planning and forward reference guard",
+      "status": "verified_offline",
+      "access_route": "Production",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU355",
+      "category": "Production",
+      "name": "Mastering metadata ducking R128 QC integration",
+      "status": "verified_offline_ffmpeg",
+      "access_route": "Production",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU356",
+      "category": "Controller CLI",
+      "name": "Production plan/run through explicit confirmation",
+      "status": "verified_offline",
+      "access_route": "Controller CLI",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU357",
+      "category": "Controller CLI",
+      "name": "Native QA arrangement command with dry run",
+      "status": "verified_offline",
+      "access_route": "Controller CLI",
+      "evidence": "tests/receipts/phase06_native_arrangement_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU358",
+      "category": "Controller CLI",
+      "name": "Audition SESX audit and effects command routes",
+      "status": "verified_offline",
+      "access_route": "Controller CLI",
+      "evidence": "tests/receipts/phase06_production_bundle_acceptance.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU359",
+      "category": "CEP",
+      "name": "CEP12 manifest AUDT25+ runtime CSXS12 schema validated",
+      "status": "verified_static_only",
+      "access_route": "CEP",
+      "evidence": "tests/receipts/phase06_cep12_manifest_corrected.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU360",
+      "category": "CEP",
+      "name": "PlugPlugSetup still failing after official CEP12 host correction",
+      "status": "blocked_host_runtime",
+      "access_route": "CEP",
+      "evidence": "tests/receipts/phase06_cep12_relaunch_diagnostic.json",
+      "qualification": "Verified in stated QA scope; see receipt."
+    },
+    {
+      "id": "AU361",
+      "category": "Offline waveform",
+      "name": "Sample-accurate cut/delete and silence insertion",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU362",
+      "category": "Offline waveform",
+      "name": "Copy/paste original sample region at arbitrary frame",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU363",
+      "category": "Offline waveform",
+      "name": "Regional gain and fade editing",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU364",
+      "category": "PCM delivery",
+      "name": "Deterministic TPDF 16-bit dithering with seed",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_float_to_pcm16.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU365",
+      "category": "PCM delivery",
+      "name": "First-order error-feedback noise shaping (non-Audition preset)",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_float_to_pcm16.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU366",
+      "category": "PCM delivery",
+      "name": "Native Float32-to-PCM16 file readback",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_float_to_pcm16.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU367",
+      "category": "Spectrum",
+      "name": "Welch FFT 4096 window JSON frequency spectrum",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU368",
+      "category": "Native multitrack",
+      "name": "Sample-accurate Native SESX QA clip split and reimport",
+      "status": "verified_hybrid_sesx_reopened",
+      "access_route": "Native Audition/SESX",
+      "evidence": "tests\\receipts\\phase07_native_split_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU369",
+      "category": "Native multitrack",
+      "name": "Native Mixdown after clip split matches original samples",
+      "status": "verified_native_live",
+      "access_route": "Native Audition/SESX",
+      "evidence": "tests\\receipts\\phase07_native_split_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU370",
+      "category": "Native multitrack",
+      "name": "Native Track Fader gain change and peak readback",
+      "status": "verified_hybrid_sesx_reopened",
+      "access_route": "Native Audition/SESX",
+      "evidence": "tests\\receipts\\phase07_native_track_controls.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU371",
+      "category": "Native import",
+      "name": "MP3 and FLAC native WaveDocument open and close",
+      "status": "verified_native_live",
+      "access_route": "Native Audition/SESX",
+      "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU372",
+      "category": "Channel tools",
+      "name": "Stereo split into L/R mono and zero-error rejoin",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_channel_split_roundtrip.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU373",
+      "category": "Production workflow",
+      "name": "Waveform Edit and FFT JSON pipeline actions",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU374",
+      "category": "Production workflow",
+      "name": "Four-step PCM editing FFT mastering and QC bundle",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU375",
+      "category": "Coverage assurance",
+      "name": "Thirty-one P0 items individually cross-referenced",
+      "status": "verified_offline",
+      "access_route": "Offline Python/SciPy",
+      "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+      "qualification": "Only scoped evidence recorded; see receipt"
+    },
+    {
+      "id": "AU376",
+      "category": "Controller reliability",
+      "name": "Unique request nonce and cleanup for JSX transport",
+      "status": "verified_offline",
+      "access_route": "Controller + external WSL/Python",
+      "evidence": "tests\\receipts\\phase08_transport_faults.json",
+      "qualification": "Mocked task replies and collision test, plus live status call"
+    },
+    {
+      "id": "AU377",
+      "category": "Controller reliability",
+      "name": "JSX error propagation and controlled timeout fault injection",
+      "status": "verified_offline",
+      "access_route": "Controller + external WSL/Python",
+      "evidence": "tests\\receipts\\phase08_transport_faults.json",
+      "qualification": "12 synthetic exception and guard tests; does not kill Audition"
+    },
+    {
+      "id": "AU378",
+      "category": "External batch delivery",
+      "name": "FLAC and MP3 batches with isolated failures",
+      "status": "verified_offline",
+      "access_route": "Controller + external WSL/Python",
+      "evidence": "tests\\receipts\\phase08_real_delivery.json",
+      "qualification": "3 real FFmpeg/ffprobe files; not native Au batch favorites"
+    },
+    {
+      "id": "AU379",
+      "category": "External batch delivery",
+      "name": "Staged exclusive publish with codec, SHA256 and source immutability",
+      "status": "verified_offline",
+      "access_route": "Controller + external WSL/Python",
+      "evidence": "tests\\receipts\\phase08_real_delivery.json",
+      "qualification": "O_EXCL write-once publish, stage rollback and content verification"
+    },
+    {
+      "id": "AU380",
+      "category": "Native QA DOM",
+      "name": "Track arm and visibility native live toggle, restore and QA-only cleanup",
+      "status": "verified_native_live",
+      "access_route": "Audition native DOM",
+      "evidence": "tests/receipts/phase09_native_acceptance.json",
+      "qualification": "Only QA-scoped evidence; inspect receipts for parameters"
+    },
+    {
+      "id": "AU381",
+      "category": "Native Batch",
+      "name": "Three-item QA native Favorites batch with output validation",
+      "status": "verified_native_live",
+      "access_route": "Audition native DOM",
+      "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+      "qualification": "Only QA-scoped evidence; inspect receipts for parameters"
+    },
+    {
+      "id": "AU382",
+      "category": "Native Batch",
+      "name": "Three-item QA native sample-rate/bit-depth batch",
+      "status": "verified_native_live",
+      "access_route": "Audition native DOM",
+      "evidence": "tests/receipts/phase09_native_batch_acceptance.json",
+      "qualification": "Only QA-scoped evidence; inspect receipts for parameters"
+    },
+    {
+      "id": "AU383",
+      "category": "Native Markers",
+      "name": "Cue and Subclip point/range native WAV persisted-reopen",
+      "status": "verified_native_live",
+      "access_route": "Audition native DOM",
+      "evidence": "tests/receipts/phase09_native_markers.json",
+      "qualification": "Only QA-scoped evidence; inspect receipts for parameters"
+    },
+    {
+      "id": "AU384",
+      "category": "Offline Batch",
+      "name": "Two-pass normalized LUFS batch with independent failure isolation",
+      "status": "verified_offline",
+      "access_route": "WSL FFmpeg",
+      "evidence": "tests/receipts/phase09_offline_batch_acceptance.json",
+      "qualification": "Only QA-scoped evidence; inspect receipts for parameters"
+    }
+  ],
+  "as_of": "2026-10-10",
+  "latest_phase": 9
+}

@@ -1,0 +1,36 @@
+{
+  "status_before": {
+    "APP": "Audition",
+    "VERSION": "26.0.0",
+    "DOCUMENTS": "0",
+    "ACTIVE_CLASS": "",
+    "ACTIVE_NAME": "",
+    "ACTIVE_PATH": "",
+    "__DONE__": "1"
+  },
+  "result": {
+    "DOCUMENTS": "2",
+    "DOC0_CLASS": "WaveDocument",
+    "DOC0_PATH": "D:/computer/Adobe/Audition/tests/fixtures/accept_au_sine_48k_mono.wav",
+    "DOC0_NAME": "accept_au_sine_48k_mono",
+    "DOC1_CLASS": "MultitrackDocument",
+    "DOC1_PATH": "C:\\Users\\LENOVO\\Documents\\Adobe\\Audition\\26.0\\ACCEPT_AU_Phase02_214641\\ACCEPT_AU_Phase02_214641.sesx",
+    "DOC1_NAME": "ACCEPT_AU_Phase02_214641",
+    "MT_TYPE": "MultitrackDocument",
+    "MT_PROPS": "_ancestor|audioClipSelection|audioTracks|dirty|displayName|duration|id|isCompoundSubDocument|markers|metadata|pannerSettings|parentCompoundDocument|path|playheadPosition|sampleRate|__proto__",
+    "MT_METHODS": "activate|addMarker|closeDocument|exportAsTemplate|exportDocument|saveAsDocument|saveDocument|addEventListener|removeEventListener",
+    "AUDIOTRACKS_TYPE": "MixedAudioTrackCollection",
+    "AUDIOTRACKS_PROPS": ".index|audioBusTracks|audioClipTracks|length|masterTrack|mixTrack|length|__proto__",
+    "AUDIOTRACKS_METHODS": "add|getAudioTrack|remove",
+    "TRACK_0_TYPE": "AudioTrack",
+    "TRACK_0_PROPS": "_ancestor|armed|audioClipSelection|audioClips|audioFormat|id|mute|name|selected|solo|type|visible|__proto__",
+    "TRACK_0_METHODS": "addEventListener|removeEventListener",
+    "CLIP_0_TYPE": "AudioClip",
+    "CLIP_0_PROPS": "_ancestor|audioFormat|duration|id|link|name|selected|sourceChannelRouting|startTime|__proto__",
+    "CLIP_0_METHODS": "addEventListener|removeEventListener",
+    "AUDIOTRACKS_AT_TYPE": "AudioTrackCollection",
+    "AUDIOTRACKS_AT_PROPS": ".index|length|length|__proto__",
+    "AUDIOTRACKS_AT_METHODS": "add|getAudioTrack|remove",
+    "__DONE__": "1"
+  }
+}

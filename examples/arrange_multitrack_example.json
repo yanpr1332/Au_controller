@@ -1,0 +1,16 @@
+[
+  {
+    "source_track": 0,
+    "source_clip": 0,
+    "target_track": 1,
+    "start_samples": 48000,
+    "gain_linear": 0.35
+  },
+  {
+    "source_track": 0,
+    "source_clip": 0,
+    "target_track": 2,
+    "start_samples": 84000,
+    "gain_linear": 0.25
+  }
+]

@@ -1,0 +1,500 @@
+{
+  "phase": 11,
+  "methods": [
+    {
+      "method": "activity_regions",
+      "signature": "(path: 'str | Path', *, threshold_dbfs: 'float' = -35.0, window_ms: 'int' = 20, min_active_ms: 'int' = 80) -> 'dict'"
+    },
+    {
+      "method": "add_marker",
+      "signature": "(self, start_samples: 'int', duration_samples: 'int' = 0, name: 'str' = '', marker_type: 'str' = 'Cue', description: 'str' = '') -> 'dict[str, str]'"
+    },
+    {
+      "method": "apply_favorite",
+      "signature": "(self, name: 'str', output_path: 'str | None' = None, timeout: 'float' = 30.0) -> 'dict[str, str]'"
+    },
+    {
+      "method": "apply_native_rack_preset",
+      "signature": "(source, destination, preset, *, track_id, confirm=False)"
+    },
+    {
+      "method": "arrange_native_qa_clips",
+      "signature": "(source, destination, placements: 'list[dict]', *, confirm=False)"
+    },
+    {
+      "method": "audio_forensics",
+      "signature": "(source, *, window_ms=100, true_peak_factor=4)"
+    },
+    {
+      "method": "audio_quality_gate",
+      "signature": "(path: 'str | Path', *, max_peak_dbfs: 'float' = 0.0, max_dc: 'float' = 0.01, allow_clips: 'int' = 0) -> 'dict'"
+    },
+    {
+      "method": "audio_signal_report",
+      "signature": "(source: 'str | Path', *, fft_window: 'int' = 4096) -> 'dict'"
+    },
+    {
+      "method": "audit_native_session",
+      "signature": "(session, *, reject_hot_eq=True)"
+    },
+    {
+      "method": "audition_command_probe",
+      "signature": "(self, commands: 'list[str]') -> 'dict'"
+    },
+    {
+      "method": "audition_native_favorite_export",
+      "signature": "(self, source: 'str | Path', output: 'str | Path', *, favorite: 'str', confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "audition_native_marker_export",
+      "signature": "(self, source: 'str | Path', output: 'str | Path', *, start_samples: 'int', duration_samples: 'int' = 0, name: 'str' = 'QA Marker', confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "audition_native_resample_export",
+      "signature": "(self, source: 'str | Path', output: 'str | Path', *, sample_rate: 'int' = 44100, bit_depth: 'int' = 24, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "audition_reflect",
+      "signature": "(self, object_name: 'str' = 'application') -> 'dict'"
+    },
+    {
+      "method": "batch_dsp",
+      "signature": "(sources: 'list[str | Path]', output_folder: 'str | Path', operations: 'list[dict]', *, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "batch_effect_recipes",
+      "signature": "(jobs, *, confirm=False)"
+    },
+    {
+      "method": "batch_favorite",
+      "signature": "(self, paths: 'list[str]', favorite: 'str', output_dir: 'str', suffix: 'str' = '_processed') -> 'dict[str, str]'"
+    },
+    {
+      "method": "batch_loudness_master",
+      "signature": "(sources, output_folder, *, target_lufs=-16.0, ceiling_dbtp=-1.5, rate=48000, suffix='_loudness', confirm=False, stop_on_error=False)"
+    },
+    {
+      "method": "batch_transcode_audio",
+      "signature": "(sources: 'list[str | Path]', output_dir: 'str | Path', *, fmt: 'str' = 'flac', suffix: 'str' = '_deliver', rate: 'int' = 48000, channels: 'int' = 2, bitrate_kbps: 'int' = 192, stop_on_error: 'bool' = False, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "combine_mono_to_stereo",
+      "signature": "(left, right, destination, *, confirm=False)"
+    },
+    {
+      "method": "create_multitrack_from_current",
+      "signature": "(self, session_name: 'str', timeout: 'float' = 10.0) -> 'None'"
+    },
+    {
+      "method": "create_native_sdk_session",
+      "signature": "(spec, destination, *, confirm=False)"
+    },
+    {
+      "method": "create_qa_session_package",
+      "signature": "(source, destination, *, confirm=False)"
+    },
+    {
+      "method": "deliver_audio_batch",
+      "signature": "(sources: 'list[str | Path]', directory, *, preset='podcast_16', formats=('wav', 'mp3'), denoise=False, confirm=False)"
+    },
+    {
+      "method": "duck_music_under_dialogue",
+      "signature": "(dialogue, background, destination, *, music_gain_db=-9.0, voice_gain_db=0.0, threshold=0.025, ratio=8.0, attack_ms=15, release_ms=300, confirm=False)"
+    },
+    {
+      "method": "edit_native_rack",
+      "signature": "(source, destination, *, track_id, operations, confirm=False)"
+    },
+    {
+      "method": "edit_production_session",
+      "signature": "(source, destination, operations, *, confirm=False)"
+    },
+    {
+      "method": "edit_sesx",
+      "signature": "(session_path: 'str', *, output_path: 'str | None' = None, track_index: 'int' = 0, track_volume: 'float | None' = None, pan: 'float | None' = None, clip_index: 'int' = 0, clip_gain: 'float | None' = None, fade_in_samples: 'int | None' = None, fade_out_start_samples: 'int | None' = None, eq_band3_gain: 'float | None' = None, enable_eq: 'bool | None' = None) -> 'str'"
+    },
+    {
+      "method": "edit_wav_timeline",
+      "signature": "(source, destination, operations, *, format='float32', dither='none', seed=19, confirm=False)"
+    },
+    {
+      "method": "effects_recipe_validate",
+      "signature": "(effects, *, max_effects=16)"
+    },
+    {
+      "method": "enqueue_production_job",
+      "signature": "(database, spec, output_dir)"
+    },
+    {
+      "method": "export_audio_qc_report",
+      "signature": "(source, destination, *, profile='podcast', confirm=False)"
+    },
+    {
+      "method": "export_fft_spectrum",
+      "signature": "(source, destination, *, window=4096, confirm=False)"
+    },
+    {
+      "method": "export_native_marker_chapters",
+      "signature": "(session, rendered_audio, directory, *, fade_ms=5, confirm=False)"
+    },
+    {
+      "method": "export_native_rack_preset",
+      "signature": "(source, destination, *, track_id, confirm=False)"
+    },
+    {
+      "method": "export_r128_timeline",
+      "signature": "(source, destination, *, confirm=False, max_points=4000)"
+    },
+    {
+      "method": "ffmpeg_environment",
+      "signature": "() -> 'dict'"
+    },
+    {
+      "method": "ffprobe_media",
+      "signature": "(path: 'str | Path') -> 'dict'"
+    },
+    {
+      "method": "import_production_wavs",
+      "signature": "(source, destination, placements, *, confirm=False)"
+    },
+    {
+      "method": "inspect_native_clips_advanced",
+      "signature": "(source)"
+    },
+    {
+      "method": "inspect_native_eq",
+      "signature": "(session, *, track=0, kind='audioTrack')"
+    },
+    {
+      "method": "inspect_native_sesx",
+      "signature": "(source) -> 'dict'"
+    },
+    {
+      "method": "inspect_session_routes",
+      "signature": "(source)"
+    },
+    {
+      "method": "inspect_sesx",
+      "signature": "(path: 'str | Path') -> 'dict'"
+    },
+    {
+      "method": "lookup_native_menu",
+      "signature": "(self, keyword: 'str', *, max_results: 'int' = 50)"
+    },
+    {
+      "method": "loudness_delivery_gate",
+      "signature": "(source, *, profile='podcast_stereo')"
+    },
+    {
+      "method": "mark_production_job_interrupted",
+      "signature": "(database, job_id, *, confirm=False)"
+    },
+    {
+      "method": "master_loudness",
+      "signature": "(source, destination, *, target_lufs=-16.0, ceiling_dbtp=-1.5, rate=48000, confirm=False)"
+    },
+    {
+      "method": "measure_lufs",
+      "signature": "(path: 'str') -> 'dict[str, float | int]'"
+    },
+    {
+      "method": "measure_r128_ffmpeg",
+      "signature": "(source, *, timeout=45)"
+    },
+    {
+      "method": "mix_audio_stems",
+      "signature": "(stems: 'list[dict]', destination, *, rate=48000, output_ceiling=0.9, confirm=False)"
+    },
+    {
+      "method": "mixdown_production_session",
+      "signature": "(self, session_path, output, *, timeout=120, confirm=False)"
+    },
+    {
+      "method": "mixdown_to_wave",
+      "signature": "(self, output_path: 'str', wait_seconds: 'float' = 1.2) -> 'dict[str, str]'"
+    },
+    {
+      "method": "multitrack_track_edit",
+      "signature": "(self, track_index: 'int' = 0, *, name: 'str | None' = None, mute: 'bool | None' = None, solo: 'bool | None' = None, armed: 'bool | None' = None, visible: 'bool | None' = None, clip_index: 'int | None' = None, clip_start_samples: 'int | None' = None, session_path: 'str | None' = None, save: 'bool' = False) -> 'dict[str, str]'"
+    },
+    {
+      "method": "native_add_track_qa",
+      "signature": "(self, session_name: 'str', *, label: 'str' = 'QA Added Track', confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_apply_favorite_copy",
+      "signature": "(self, source, destination, *, favorite, timeout=120, confirm=False)"
+    },
+    {
+      "method": "native_batch_open_qa",
+      "signature": "(self, sources, *, confirm=False)"
+    },
+    {
+      "method": "native_batch_process_qa",
+      "signature": "(self, sources, output_folder, *, task='favorite', favorite='Normalize to -3 dB', rate=44100, bit_depth=24, suffix='_phase09_native', stop_on_error=False, confirm=False)"
+    },
+    {
+      "method": "native_favorite_inventory",
+      "signature": "()"
+    },
+    {
+      "method": "native_menu_catalog",
+      "signature": "(self)"
+    },
+    {
+      "method": "native_move_clip_qa",
+      "signature": "(self, session_name: 'str', from_track: 'int', to_track: 'int', *, clip_index: 'int' = 0, start_samples: 'int | None' = None, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_add_bus_qa",
+      "signature": "(self, session_name: 'str', bus_name: 'str', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_bus_marker_inventory",
+      "signature": "(self, session_name: 'str')"
+    },
+    {
+      "method": "native_multitrack_edit_qa",
+      "signature": "(self, session_name: 'str', track_index: 'int', *, name: 'str | None' = None, mute: 'bool | None' = None, solo: 'bool | None' = None, clip_index: 'int | None' = None, clip_start_samples: 'int | None' = None, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "native_multitrack_marker_qa",
+      "signature": "(self, session_name: 'str', *, start_samples: 'int', duration_samples: 'int' = 0, label: 'str' = 'QA Marker', description: 'str' = 'Audition QA', confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_mixdown_qa",
+      "signature": "(self, session_name: 'str', output: 'str | Path', *, confirm: 'bool' = False, poll_seconds: 'float' = 3.0)"
+    },
+    {
+      "method": "native_multitrack_remove_bus_qa",
+      "signature": "(self, session_name: 'str', bus_index: 'int', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_snapshot",
+      "signature": "(self, session_name: 'str')"
+    },
+    {
+      "method": "native_qa_transport_accept",
+      "signature": "(self, session_name, *, seek_samples=0, play_ms=150, test_pause=True, confirm=False)"
+    },
+    {
+      "method": "native_record_input_qa",
+      "signature": "(self, destination, *, seconds=1.0, confirm=False)"
+    },
+    {
+      "method": "native_remove_empty_track_qa",
+      "signature": "(self, session_name: 'str', track_index: 'int', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_sesx_markers_xmp",
+      "signature": "(session)"
+    },
+    {
+      "method": "native_track_state_roundtrip_qa",
+      "signature": "(self, source, *, track_index=0, armed=True, visible=False, confirm=False)"
+    },
+    {
+      "method": "native_transport_snapshot",
+      "signature": "(self)"
+    },
+    {
+      "method": "native_wave_markers_qa",
+      "signature": "(self, source, output, *, confirm=False)"
+    },
+    {
+      "method": "normalize_lufs_fallback",
+      "signature": "(input_path: 'str', output_path: 'str', target_lufs: 'float' = -16.0, true_peak_limit: 'float' = -1.0) -> 'dict[str, float | str]'"
+    },
+    {
+      "method": "open_document",
+      "signature": "(self, path: 'str') -> 'dict[str, str]'"
+    },
+    {
+      "method": "open_match_loudness_panel",
+      "signature": "(self) -> 'None'"
+    },
+    {
+      "method": "package_production_session",
+      "signature": "(source, destination, *, confirm=False)"
+    },
+    {
+      "method": "patch_native_clip_advanced",
+      "signature": "(source, destination, edits: 'list[dict]', *, confirm=False)"
+    },
+    {
+      "method": "patch_native_eq_normalized",
+      "signature": "(source, destination, settings: 'dict', *, track=0, kind='audioTrack', enabled=True, confirm=False)"
+    },
+    {
+      "method": "patch_native_pan_position",
+      "signature": "(source, destination, *, track_id, position, confirm=False)"
+    },
+    {
+      "method": "patch_native_send",
+      "signature": "(source, destination, *, track_id, bus_id, slot=0, level=0.25, pre_fader=False, enabled=True, confirm=False)"
+    },
+    {
+      "method": "patch_native_sesx",
+      "signature": "(source, destination, edits: 'list[dict]', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "patch_native_track_envelope",
+      "signature": "(source, destination, *, track_id, points, component_id='trackFader', parameter_index=0, confirm=False)"
+    },
+    {
+      "method": "patch_native_xmp_markers",
+      "signature": "(source, destination, operations, *, confirm=False)"
+    },
+    {
+      "method": "patch_production_component",
+      "signature": "(source, destination, *, track_id, component_id, powered=None, normalized_parameters=None, confirm=False)"
+    },
+    {
+      "method": "patch_session_bus_route",
+      "signature": "(source, destination, *, track_index=0, bus_index=0, confirm=False)"
+    },
+    {
+      "method": "patch_sesx",
+      "signature": "(source: 'str | Path', dest: 'str | Path', changes: 'list[dict]', *, confirm=False) -> 'dict'"
+    },
+    {
+      "method": "podcast_sidechain_delivery",
+      "signature": "(dialogue, music, destination, *, target_lufs=-16, ceiling_dbtp=-1.5, confirm=False)"
+    },
+    {
+      "method": "process_wav",
+      "signature": "(source: 'str | Path', destination: 'str | Path', operations: 'list[dict]', *, confirm: 'bool' = False, output_format: 'str' = 'pcm16') -> 'dict'"
+    },
+    {
+      "method": "production_component_inventory",
+      "signature": "(source)"
+    },
+    {
+      "method": "production_job_plan",
+      "signature": "(spec, output_dir)"
+    },
+    {
+      "method": "production_queue_status",
+      "signature": "(database)"
+    },
+    {
+      "method": "qc_audio_profile",
+      "signature": "(source, profile='podcast', *, profile_override=None)"
+    },
+    {
+      "method": "r128_loudness_timeline",
+      "signature": "(source, *, max_points=4000, timeout_seconds=100)"
+    },
+    {
+      "method": "relink_production_session",
+      "signature": "(source, destination, replacements, *, confirm=False)"
+    },
+    {
+      "method": "remove_unused_bus_sesx",
+      "signature": "(source, destination, *, bus_index: 'int', expected_name: 'str', confirm: 'bool' = False)"
+    },
+    {
+      "method": "render_audio_effects",
+      "signature": "(source, destination, effects, *, sample_rate=48000, final_ceiling_dbfs=-1.0, confirm=False)"
+    },
+    {
+      "method": "render_gain_pan_envelope",
+      "signature": "(source, destination, points, *, confirm=False)"
+    },
+    {
+      "method": "repair_review_bundle",
+      "signature": "(source, destination, operations, *, confirm=False)"
+    },
+    {
+      "method": "retry_production_job",
+      "signature": "(database, job_id, *, confirm=False)"
+    },
+    {
+      "method": "run_next_production_job",
+      "signature": "(database, *, confirm=False)"
+    },
+    {
+      "method": "run_production_jobs",
+      "signature": "(spec, output_dir, *, confirm=False)"
+    },
+    {
+      "method": "run_resumable_production",
+      "signature": "(spec, output_dir, checkpoint_dir, *, confirm=False)"
+    },
+    {
+      "method": "save_as",
+      "signature": "(self, path: 'str') -> 'dict[str, str]'"
+    },
+    {
+      "method": "save_wave_converted",
+      "signature": "(self, path: 'str', sample_rate: 'int | None' = None, bit_depth: 'int | None' = None, dither: 'bool' = True, resample_quality: 'int' = 100) -> 'dict[str, str]'"
+    },
+    {
+      "method": "search_session_media",
+      "signature": "(source, roots, *, expected_hashes=None, max_files=20000)"
+    },
+    {
+      "method": "select_spot_healing_brush",
+      "signature": "(self) -> 'None'"
+    },
+    {
+      "method": "send_menu_command",
+      "signature": "(self, command_id: 'int') -> 'None'"
+    },
+    {
+      "method": "session_overlap_report",
+      "signature": "(source)"
+    },
+    {
+      "method": "set_playhead",
+      "signature": "(self, samples: 'int') -> 'dict[str, str]'"
+    },
+    {
+      "method": "speech_cleanup",
+      "signature": "(source, destination, *, highpass_hz=85.0, denoise_db=9.0, threshold_db=-22.0, ratio=2.5, confirm=False)"
+    },
+    {
+      "method": "split_native_qa_clip",
+      "signature": "(source, destination, *, track=0, clip=0, offset_samples=0, confirm=False)"
+    },
+    {
+      "method": "split_stereo_to_mono",
+      "signature": "(source, left_output, right_output, *, confirm=False)"
+    },
+    {
+      "method": "status",
+      "signature": "(self) -> 'dict[str, str]'"
+    },
+    {
+      "method": "tag_delivery_audio",
+      "signature": "(source, destination, tags: 'dict', *, bwf=False, confirm=False)"
+    },
+    {
+      "method": "toggle_spectral_display",
+      "signature": "(self) -> 'None'"
+    },
+    {
+      "method": "transcode_audio",
+      "signature": "(source: 'str | Path', destination: 'str | Path', *, rate: 'int' = 48000, channels: 'int' = 2, bitrate_kbps: 'int' = 192, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "transport",
+      "signature": "(self, action: 'str') -> 'dict[str, str]'"
+    },
+    {
+      "method": "verify_qa_session_package",
+      "signature": "(directory)"
+    },
+    {
+      "method": "wav_stats",
+      "signature": "(path: 'str') -> 'dict[str, float | int | str]'"
+    },
+    {
+      "method": "write_native_session_audit",
+      "signature": "(session, destination, *, confirm=False)"
+    }
+  ],
+  "method_count": 123,
+  "all_requested_completed": false,
+  "evidence_report": "docs/Audition_26_phase11_20261030.md"
+}

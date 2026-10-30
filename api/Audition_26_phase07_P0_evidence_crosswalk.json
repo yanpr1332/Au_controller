@@ -1,0 +1,250 @@
+[
+  {
+    "id": "AU006",
+    "name": "只读命令枚举",
+    "old_status": "not_verified",
+    "new_status": "verified_readonly_host",
+    "evidence": "api\\Audition_26_native_menu_registry.json",
+    "note": "Audition Win32 menu command enumeration verified; not event subscribe."
+  },
+  {
+    "id": "AU008",
+    "name": "原生命令调用",
+    "old_status": "not_verified",
+    "new_status": "verified_native_live",
+    "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+    "note": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+  },
+  {
+    "id": "AU009",
+    "name": "事件订阅",
+    "old_status": "not_verified",
+    "new_status": "not_verified",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU010",
+    "name": "停止播放",
+    "old_status": "not_verified",
+    "new_status": "verified_native_live",
+    "evidence": "tests\\receipts\\phase06_native_transport_acceptance.json",
+    "note": "Native QA playhead, stop and state restoration verified in host."
+  },
+  {
+    "id": "AU011",
+    "name": "未保存检测",
+    "old_status": "not_verified",
+    "new_status": "verified_native_live",
+    "evidence": "tests\\receipts\\phase07_native_mp3_flac_open.json",
+    "note": "Actual native Audition open/document dirty guard/File.Close for MP3 and FLAC."
+  },
+  {
+    "id": "AU012",
+    "name": "安全任务超时",
+    "old_status": "not_verified",
+    "new_status": "not_verified",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU058",
+    "name": "DeReverb",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "existing_legacy_recheck",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU088",
+    "name": "Track EQ",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "verified_hybrid_sesx_reopened",
+    "evidence": "tests\\receipts\\phase04_real_eq_render.json",
+    "note": "Track EQ conservative gain serialized, reopened and Native Mixdown measured; not Hz/dB mapping."
+  },
+  {
+    "id": "AU112",
+    "name": "Track arm",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "existing_legacy_recheck",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU113",
+    "name": "Track visibility",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "existing_legacy_recheck",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU114",
+    "name": "Track fader",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "verified_hybrid_sesx_reopened",
+    "evidence": "tests\\receipts\\phase07_native_track_controls.json",
+    "note": "Track Fader 0.8 serialized and Audition Mixdown lower peak than baseline."
+  },
+  {
+    "id": "AU115",
+    "name": "Track pan",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "existing_legacy_recheck",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU117",
+    "name": "Clip gain",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "verified_hybrid_sesx_reopened",
+    "evidence": "tests\\receipts\\phase06_native_arrangement_acceptance.json",
+    "note": "Native SESX clip linear gains and layered native Mixdown; individual levels not isolated."
+  },
+  {
+    "id": "AU118",
+    "name": "Clip fade in",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "verified_hybrid_sesx_reopened",
+    "evidence": "tests\\receipts\\phase05_native_clip_trim_fade_acceptance.json",
+    "note": "Native fade-in/out modified, session reopened and rendered."
+  },
+  {
+    "id": "AU119",
+    "name": "Clip fade out",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "verified_hybrid_sesx_reopened",
+    "evidence": "tests\\receipts\\phase05_native_clip_trim_fade_acceptance.json",
+    "note": "Native fade-in/out modified, session reopened and rendered."
+  },
+  {
+    "id": "AU157",
+    "name": "Favorite batch",
+    "old_status": "existing_legacy_recheck",
+    "new_status": "existing_legacy_recheck",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU253",
+    "name": "安全工作区",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU254",
+    "name": "备份",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+    "note": "Source backup ZIP with per-file SHA256 exists and user workspace untouched."
+  },
+  {
+    "id": "AU255",
+    "name": "源文件只读",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU256",
+    "name": "拒绝覆盖",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU257",
+    "name": "路径预检",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU258",
+    "name": "超时处理",
+    "old_status": "not_verified",
+    "new_status": "not_verified",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU259",
+    "name": "文件 SHA256",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU260",
+    "name": "输出后解码",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_channel_split_roundtrip.json",
+    "note": "WAV output reopening/decoder readback and sample comparison proved."
+  },
+  {
+    "id": "AU261",
+    "name": "固定测试波形",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU262",
+    "name": "日志清单",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_timeline_acceptance.json",
+    "note": "Source immutability, QA path guard, output collision refusal, SHA256 and receipts verified in tests."
+  },
+  {
+    "id": "AU263",
+    "name": "操作错误报告",
+    "old_status": "not_verified",
+    "new_status": "not_verified",
+    "evidence": null,
+    "note": "Insufficient isolated end-to-end proof; not upgraded"
+  },
+  {
+    "id": "AU264",
+    "name": "自动回归",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+    "note": "277-test phase07 unit suite and native QA receipt checkpoint."
+  },
+  {
+    "id": "AU265",
+    "name": "恢复说明",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+    "note": "Recovery backup/README/API docs preserved in workspace; documentation availability verified."
+  },
+  {
+    "id": "AU266",
+    "name": "使用文档",
+    "old_status": "not_verified",
+    "new_status": "verified_offline",
+    "evidence": "tests\\receipts\\phase07_waveform_pipeline_acceptance.json",
+    "note": "Recovery backup/README/API docs preserved in workspace; documentation availability verified."
+  },
+  {
+    "id": "AU267",
+    "name": "API 动态发现",
+    "old_status": "not_verified",
+    "new_status": "verified_readonly_host",
+    "evidence": "api\\Audition_26_native_menu_registry.json",
+    "note": "Audition Win32 menu command enumeration verified; not event subscribe."
+  }
+]

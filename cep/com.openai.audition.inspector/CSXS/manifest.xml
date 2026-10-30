@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest Version="7.0" ExtensionBundleId="com.openai.audition.inspector" ExtensionBundleVersion="0.1.0" ExtensionBundleName="Audition Inspector">
+  <ExtensionList>
+    <Extension Id="com.openai.audition.inspector.panel" Version="0.1.0"/>
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList><Host Name="AUDT" Version="[25.0,99.9]"/></HostList>
+    <LocaleList><Locale Code="All"/></LocaleList>
+    <RequiredRuntimeList><RequiredRuntime Name="CSXS" Version="12.0"/></RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.openai.audition.inspector.panel">
+      <DispatchInfo>
+        <Resources><MainPath>./client/index.html</MainPath>
+        </Resources>
+        <Lifecycle><AutoVisible>false</AutoVisible></Lifecycle>
+        <UI><Type>Panel</Type><Menu>Audition API Inspector</Menu>
+          <Geometry><Size><Width>540</Width><Height>440</Height></Size></Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>

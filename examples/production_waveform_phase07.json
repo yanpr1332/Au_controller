@@ -1,0 +1,59 @@
+{
+  "inputs": {
+    "voice": "D:\\computer\\Adobe\\Audition\\tests\\fixtures\\accept_au_sine_48k_mono.wav"
+  },
+  "steps": [
+    {
+      "id": "edited",
+      "kind": "wave_edit",
+      "source": "voice",
+      "format": "wav",
+      "params": {
+        "operations": [
+          {
+            "action": "delete",
+            "start": 0,
+            "end": 12000
+          },
+          {
+            "action": "fade_region",
+            "start": 12000,
+            "end": 14400,
+            "edge": "in"
+          }
+        ],
+        "format": "pcm16",
+        "dither": "tpdf_feedback",
+        "seed": 120
+      }
+    },
+    {
+      "id": "spectrum",
+      "kind": "fft",
+      "source": "@edited",
+      "format": "json",
+      "params": {
+        "window": 4096
+      }
+    },
+    {
+      "id": "mastered",
+      "kind": "master",
+      "source": "@edited",
+      "format": "wav",
+      "params": {
+        "target_lufs": -16,
+        "ceiling_dbtp": -1.5
+      }
+    },
+    {
+      "id": "qc",
+      "kind": "qc",
+      "source": "@mastered",
+      "format": "json",
+      "params": {
+        "profile": "podcast"
+      }
+    }
+  ]
+}

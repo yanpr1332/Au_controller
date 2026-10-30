@@ -1,0 +1,3803 @@
+{
+  "host": "Audition",
+  "pid": 35716,
+  "main_window": 657656,
+  "count": 474,
+  "unique_ids": 473,
+  "duplicated_id_occurrences": 1,
+  "commands": [
+    {
+      "id": 35006,
+      "name": "Multitrack Session...",
+      "path": "File > New > Multitrack Session...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35005,
+      "name": "Audio File...",
+      "path": "File > New > Audio File...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35007,
+      "name": "CD Layout",
+      "path": "File > New > CD Layout",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35008,
+      "name": "Open...",
+      "path": "File > Open...",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35011,
+      "name": "To New...",
+      "path": "File > Open Append > To New...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35012,
+      "name": "To Current...",
+      "path": "File > Open Append > To Current...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35621,
+      "name": "1 ACCEPT_AU_Phase04_bus_pruned.sesx",
+      "path": "File > Open Recent > 1 ACCEPT_AU_Phase04_bus_pruned.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35622,
+      "name": "2 ACCEPT_AU_Phase03_routed.sesx",
+      "path": "File > Open Recent > 2 ACCEPT_AU_Phase03_routed.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35623,
+      "name": "3 ACCEPT_AU_Phase03_native_092344.sesx",
+      "path": "File > Open Recent > 3 ACCEPT_AU_Phase03_native_092344.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35624,
+      "name": "4 ACCEPT_AU_Phase02_214641_API_TEST.sesx",
+      "path": "File > Open Recent > 4 ACCEPT_AU_Phase02_214641_API_TEST.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35625,
+      "name": "5 ACCEPT_AU_Phase02_214641_PATCHED.sesx",
+      "path": "File > Open Recent > 5 ACCEPT_AU_Phase02_214641_PATCHED.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35626,
+      "name": "6 ACCEPT_AU_Phase02_214641.sesx",
+      "path": "File > Open Recent > 6 ACCEPT_AU_Phase02_214641.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35627,
+      "name": "7 session_eq_edit.sesx",
+      "path": "File > Open Recent > 7 session_eq_edit.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35628,
+      "name": "8 session_param_edit.sesx",
+      "path": "File > Open Recent > 8 session_param_edit.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35629,
+      "name": "9 ChatGPT_Au_Test_Session.sesx",
+      "path": "File > Open Recent > 9 ChatGPT_Au_Test_Session.sesx",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35630,
+      "name": "10 phase03_native_mixdown_saved_document.wav",
+      "path": "File > Open Recent > 10 phase03_native_mixdown_saved_document.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35631,
+      "name": "11 accept_au_sine_48k_mono.wav",
+      "path": "File > Open Recent > 11 accept_au_sine_48k_mono.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35632,
+      "name": "12 accept_native_markers.wav",
+      "path": "File > Open Recent > 12 accept_native_markers.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35633,
+      "name": "13 accept_native_96k24.wav",
+      "path": "File > Open Recent > 13 accept_native_96k24.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35634,
+      "name": "14 accept_native_44k24.wav",
+      "path": "File > Open Recent > 14 accept_native_44k24.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35635,
+      "name": "15 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_48k.wav",
+      "path": "File > Open Recent > 15 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_48k.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35636,
+      "name": "16 speech_44100_24bit.wav",
+      "path": "File > Open Recent > 16 speech_44100_24bit.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35637,
+      "name": "17 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_noisy.wav",
+      "path": "File > Open Recent > 17 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_noisy.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35638,
+      "name": "18 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_noisy.wav",
+      "path": "File > Open Recent > 18 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_noisy.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35639,
+      "name": "19 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_48k.wav",
+      "path": "File > Open Recent > 19 D:\\computer\\Adobe\\Audition\\au_test_output\\speech_48k.wav",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35041,
+      "name": "Clear Recent",
+      "path": "File > Open Recent > Clear Recent",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35039,
+      "name": "Extract Audio from CD...",
+      "path": "File > Extract Audio from CD...",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35015,
+      "name": "Close",
+      "path": "File > Close",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35016,
+      "name": "Close All",
+      "path": "File > Close All",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35017,
+      "name": "Close Unused Media",
+      "path": "File > Close Unused Media",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35018,
+      "name": "Close Session and its Media",
+      "path": "File > Close Session and its Media",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35019,
+      "name": "Save",
+      "path": "File > Save",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35022,
+      "name": "Save As...",
+      "path": "File > Save As...",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35023,
+      "name": "Save Selection As...",
+      "path": "File > Save Selection As...",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35020,
+      "name": "Save All",
+      "path": "File > Save All",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35021,
+      "name": "Save All Audio as Batch Process...",
+      "path": "File > Save All Audio as Batch Process...",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35042,
+      "name": "File...",
+      "path": "File > Import > File...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35043,
+      "name": "Raw Data...",
+      "path": "File > Import > Raw Data...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35044,
+      "name": "Application Settings...",
+      "path": "File > Import > Application Settings...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35045,
+      "name": "Markers from File...",
+      "path": "File > Import > Markers from File...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35024,
+      "name": "File...",
+      "path": "File > Export > File...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35036,
+      "name": "Audio within Range Markers...",
+      "path": "File > Export > Audio within Range Markers...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35037,
+      "name": "Selected Markers to CSV...",
+      "path": "File > Export > Selected Markers to CSV...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35038,
+      "name": "Burn Audio to CD...",
+      "path": "File > Export > Burn Audio to CD...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35026,
+      "name": "Time Selection...",
+      "path": "File > Export > Multitrack Mixdown > Time Selection...",
+      "category": "File",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35025,
+      "name": "Entire Session...",
+      "path": "File > Export > Multitrack Mixdown > Entire Session...",
+      "category": "File",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35027,
+      "name": "Selected Clips...",
+      "path": "File > Export > Multitrack Mixdown > Selected Clips...",
+      "category": "File",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35029,
+      "name": "Export to Adobe Premiere...",
+      "path": "File > Export > Export to Adobe Premiere...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35028,
+      "name": "Export with Adobe Media Encoder...",
+      "path": "File > Export > Export with Adobe Media Encoder...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35031,
+      "name": "Session...",
+      "path": "File > Export > Session...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35032,
+      "name": "Session as Template...",
+      "path": "File > Export > Session as Template...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35033,
+      "name": "FCP XML Interchange Format...",
+      "path": "File > Export > FCP XML Interchange Format...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35034,
+      "name": "OMF...",
+      "path": "File > Export > OMF...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35046,
+      "name": "Application Settings...",
+      "path": "File > Export > Application Settings...",
+      "category": "File",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35051,
+      "name": "Browse and Run Script...",
+      "path": "File > Browse and Run Script...",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35050,
+      "name": "Reveal in Media Browser",
+      "path": "File > Reveal in Media Browser",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35049,
+      "name": "Reveal in Explorer",
+      "path": "File > Reveal in Explorer",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35040,
+      "name": "Exit",
+      "path": "File > Exit",
+      "category": "File",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35052,
+      "name": "Undo",
+      "path": "Edit > Undo",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35053,
+      "name": "Redo",
+      "path": "Edit > Redo",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35148,
+      "name": "Repeat Last Command",
+      "path": "Edit > Repeat Last Command",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35242,
+      "name": "Move",
+      "path": "Edit > Tools > Move",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35243,
+      "name": "Razor",
+      "path": "Edit > Tools > Razor",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35246,
+      "name": "Slip",
+      "path": "Edit > Tools > Slip",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35247,
+      "name": "Time Selection",
+      "path": "Edit > Tools > Time Selection",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35248,
+      "name": "Marquee Selection",
+      "path": "Edit > Tools > Marquee Selection",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35249,
+      "name": "Lasso Selection",
+      "path": "Edit > Tools > Lasso Selection",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35251,
+      "name": "Paintbrush Selection",
+      "path": "Edit > Tools > Paintbrush Selection",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35250,
+      "name": "Spot Healing Brush",
+      "path": "Edit > Tools > Spot Healing Brush",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35141,
+      "name": "All Channels",
+      "path": "Edit > Enable Channels > All Channels",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35054,
+      "name": "Clipboard 1",
+      "path": "Edit > Set Current Clipboard > Clipboard 1",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35055,
+      "name": "Clipboard 2",
+      "path": "Edit > Set Current Clipboard > Clipboard 2",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35056,
+      "name": "Clipboard 3",
+      "path": "Edit > Set Current Clipboard > Clipboard 3",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35057,
+      "name": "Clipboard 4",
+      "path": "Edit > Set Current Clipboard > Clipboard 4",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35058,
+      "name": "Clipboard 5",
+      "path": "Edit > Set Current Clipboard > Clipboard 5",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35059,
+      "name": "Cut",
+      "path": "Edit > Cut",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35060,
+      "name": "Copy",
+      "path": "Edit > Copy",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35071,
+      "name": "Copy to New",
+      "path": "Edit > Copy to New",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35061,
+      "name": "Paste",
+      "path": "Edit > Paste",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35072,
+      "name": "Paste to New",
+      "path": "Edit > Paste to New",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35062,
+      "name": "Mix Paste...",
+      "path": "Edit > Mix Paste...",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35063,
+      "name": "Delete",
+      "path": "Edit > Delete",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35065,
+      "name": "Selected Clips",
+      "path": "Edit > Ripple Delete > Selected Clips",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35066,
+      "name": "Time Selection in Selected Clips",
+      "path": "Edit > Ripple Delete > Time Selection in Selected Clips",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35067,
+      "name": "Time Selection in All Tracks",
+      "path": "Edit > Ripple Delete > Time Selection in All Tracks",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35068,
+      "name": "Time Selection in Selected Track",
+      "path": "Edit > Ripple Delete > Time Selection in Selected Track",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35069,
+      "name": "Gap in Selected Track",
+      "path": "Edit > Ripple Delete > Gap in Selected Track",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35064,
+      "name": "Rename",
+      "path": "Edit > Rename",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35070,
+      "name": "Crop",
+      "path": "Edit > Crop",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35102,
+      "name": "Select All",
+      "path": "Edit > Select > Select All",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35112,
+      "name": "Deselect All",
+      "path": "Edit > Select > Deselect All",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35103,
+      "name": "All Clips in Selected Track",
+      "path": "Edit > Select > All Clips in Selected Track",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35107,
+      "name": "Next Clip in Selected Track",
+      "path": "Edit > Select > Next Clip in Selected Track",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35104,
+      "name": "Clips to End of Selected Track",
+      "path": "Edit > Select > Clips to End of Selected Track",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35105,
+      "name": "Clips to Start of Session",
+      "path": "Edit > Select > Clips to Start of Session",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35106,
+      "name": "Clips to End of Session",
+      "path": "Edit > Select > Clips to End of Session",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35108,
+      "name": "Dialogue",
+      "path": "Edit > Select > Clips of Audio Type > Dialogue",
+      "category": "Edit",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35109,
+      "name": "Music",
+      "path": "Edit > Select > Clips of Audio Type > Music",
+      "category": "Edit",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35110,
+      "name": "Sound Effects",
+      "path": "Edit > Select > Clips of Audio Type > Sound Effects",
+      "category": "Edit",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35111,
+      "name": "Ambience",
+      "path": "Edit > Select > Clips of Audio Type > Ambience",
+      "category": "Edit",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35113,
+      "name": "Select Current View Time",
+      "path": "Edit > Select > Select Current View Time",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35114,
+      "name": "Select All Time",
+      "path": "Edit > Select > Select All Time",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35115,
+      "name": "Select Time around Selected Clips",
+      "path": "Edit > Select > Select Time around Selected Clips",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35117,
+      "name": "Clear Time Selection",
+      "path": "Edit > Select > Clear Time Selection",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35116,
+      "name": "Select Inverse",
+      "path": "Edit > Select > Select Inverse",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35089,
+      "name": "Silence...",
+      "path": "Edit > Insert > Silence...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35073,
+      "name": "Add Cue Marker",
+      "path": "Edit > Marker > Add Cue Marker",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35074,
+      "name": "Add Subclip Marker",
+      "path": "Edit > Marker > Add Subclip Marker",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35075,
+      "name": "Add CD Track Marker",
+      "path": "Edit > Marker > Add CD Track Marker",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35076,
+      "name": "Add Cart Timer Marker",
+      "path": "Edit > Marker > Add Cart Timer Marker",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35081,
+      "name": "Rename Selected Marker",
+      "path": "Edit > Marker > Rename Selected Marker",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35079,
+      "name": "Delete Selected Markers",
+      "path": "Edit > Marker > Delete Selected Markers",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35080,
+      "name": "Delete All Markers",
+      "path": "Edit > Marker > Delete All Markers",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35593,
+      "name": "Move Playhead to Next",
+      "path": "Edit > Marker > Move Playhead to Next",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35594,
+      "name": "Move Playhead to Previous",
+      "path": "Edit > Marker > Move Playhead to Previous",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35120,
+      "name": "Adjust Selection Inward",
+      "path": "Edit > Zero Crossings > Adjust Selection Inward",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35121,
+      "name": "Adjust Selection Outward",
+      "path": "Edit > Zero Crossings > Adjust Selection Outward",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35122,
+      "name": "Adjust Left Side to Left",
+      "path": "Edit > Zero Crossings > Adjust Left Side to Left",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35123,
+      "name": "Adjust Left Side to Right",
+      "path": "Edit > Zero Crossings > Adjust Left Side to Right",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35124,
+      "name": "Adjust Right Side to Left",
+      "path": "Edit > Zero Crossings > Adjust Right Side to Left",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35125,
+      "name": "Adjust Right Side to Right",
+      "path": "Edit > Zero Crossings > Adjust Right Side to Right",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35132,
+      "name": "Enabled",
+      "path": "Edit > Snapping > Enabled",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35133,
+      "name": "Snap to Markers",
+      "path": "Edit > Snapping > Snap to Markers",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35134,
+      "name": "Snap to Ruler (Coarse)",
+      "path": "Edit > Snapping > Snap to Ruler (Coarse)",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35135,
+      "name": "Snap to Ruler (Fine)",
+      "path": "Edit > Snapping > Snap to Ruler (Fine)",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35136,
+      "name": "Snap to Clips",
+      "path": "Edit > Snapping > Snap to Clips",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35137,
+      "name": "Snap to Loops",
+      "path": "Edit > Snapping > Snap to Loops",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35138,
+      "name": "Snap to Zero Crossings",
+      "path": "Edit > Snapping > Snap to Zero Crossings",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35139,
+      "name": "Snap to Frames",
+      "path": "Edit > Snapping > Snap to Frames",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35150,
+      "name": "Batch Process",
+      "path": "Edit > Batch Process",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35090,
+      "name": "Extract Channels to Mono Files",
+      "path": "Edit > Extract Channels to Mono Files",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35091,
+      "name": "Frequency Band Splitter...",
+      "path": "Edit > Frequency Band Splitter...",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35092,
+      "name": "Convert Sample Type...",
+      "path": "Edit > Convert Sample Type...",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35093,
+      "name": "Interpret Sample Rate...",
+      "path": "Edit > Interpret Sample Rate...",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35151,
+      "name": "Edit Original",
+      "path": "Edit > Edit Original",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35256,
+      "name": "Keyboard Shortcuts...",
+      "path": "Edit > Keyboard Shortcuts...",
+      "category": "Edit",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35263,
+      "name": "General...",
+      "path": "Edit > Preferences > General...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35261,
+      "name": "Appearance...",
+      "path": "Edit > Preferences > Appearance...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35262,
+      "name": "Audio Channel Mapping...",
+      "path": "Edit > Preferences > Audio Channel Mapping...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35257,
+      "name": "Audio Hardware...",
+      "path": "Edit > Preferences > Audio Hardware...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35270,
+      "name": "Auto Save...",
+      "path": "Edit > Preferences > Auto Save...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35272,
+      "name": "Control Surface...",
+      "path": "Edit > Preferences > Control Surface...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35259,
+      "name": "Data...",
+      "path": "Edit > Preferences > Data...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35260,
+      "name": "Effects...",
+      "path": "Edit > Preferences > Effects...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35268,
+      "name": "Markers  Metadata...",
+      "path": "Edit > Preferences > Markers  Metadata...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35258,
+      "name": "Media  Disk Cache...",
+      "path": "Edit > Preferences > Media  Disk Cache...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35273,
+      "name": "Memory...",
+      "path": "Edit > Preferences > Memory...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35269,
+      "name": "Multitrack...",
+      "path": "Edit > Preferences > Multitrack...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35271,
+      "name": "Multitrack Clips...",
+      "path": "Edit > Preferences > Multitrack Clips...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35264,
+      "name": "Playback and Recording...",
+      "path": "Edit > Preferences > Playback and Recording...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35265,
+      "name": "Spectral Displays...",
+      "path": "Edit > Preferences > Spectral Displays...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35266,
+      "name": "Time Display...",
+      "path": "Edit > Preferences > Time Display...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35267,
+      "name": "Video...",
+      "path": "Edit > Preferences > Video...",
+      "category": "Edit",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35156,
+      "name": "Add Mono Audio Track",
+      "path": "Multitrack > Tracks > Add Mono Audio Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35157,
+      "name": "Add Stereo Audio Track",
+      "path": "Multitrack > Tracks > Add Stereo Audio Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35158,
+      "name": "Add 5.1 Audio Track",
+      "path": "Multitrack > Tracks > Add 5.1 Audio Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35162,
+      "name": "Add Mono Bus Track",
+      "path": "Multitrack > Tracks > Add Mono Bus Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35163,
+      "name": "Add Stereo Bus Track",
+      "path": "Multitrack > Tracks > Add Stereo Bus Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35164,
+      "name": "Add 5.1 Bus Track",
+      "path": "Multitrack > Tracks > Add 5.1 Bus Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35159,
+      "name": "Add Video Track",
+      "path": "Multitrack > Tracks > Add Video Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35160,
+      "name": "Add Tracks...",
+      "path": "Multitrack > Tracks > Add Tracks...",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35161,
+      "name": "Delete Empty Tracks",
+      "path": "Multitrack > Tracks > Delete Empty Tracks",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35165,
+      "name": "Duplicate Selected Track",
+      "path": "Multitrack > Tracks > Duplicate Selected Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35166,
+      "name": "Delete Selected Track",
+      "path": "Multitrack > Tracks > Delete Selected Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35168,
+      "name": "Insert Files...",
+      "path": "Multitrack > Insert Files...",
+      "category": "Multitrack",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35170,
+      "name": "Time Selection",
+      "path": "Multitrack > Mixdown Session to New File > Time Selection",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35169,
+      "name": "Entire Session",
+      "path": "Multitrack > Mixdown Session to New File > Entire Session",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35171,
+      "name": "Selected Clips",
+      "path": "Multitrack > Mixdown Session to New File > Selected Clips",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35175,
+      "name": "Selected Track",
+      "path": "Multitrack > Bounce to New Track > Selected Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35172,
+      "name": "Time Selection",
+      "path": "Multitrack > Bounce to New Track > Time Selection",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35173,
+      "name": "Selected Clips in Time Selection",
+      "path": "Multitrack > Bounce to New Track > Selected Clips in Time Selection",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35174,
+      "name": "Selected Clips Only",
+      "path": "Multitrack > Bounce to New Track > Selected Clips Only",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35035,
+      "name": "Export to Adobe Premiere...",
+      "path": "Multitrack > Export to Adobe Premiere...",
+      "category": "Multitrack",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35581,
+      "name": "Enable Metronome",
+      "path": "Multitrack > Metronome > Enable Metronome",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35582,
+      "name": "Edit Pattern...",
+      "path": "Multitrack > Metronome > Edit Pattern...",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35583,
+      "name": "African 1",
+      "path": "Multitrack > Metronome > Change Sound Type > African 1",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35584,
+      "name": "African 2",
+      "path": "Multitrack > Metronome > Change Sound Type > African 2",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35585,
+      "name": "Beeps",
+      "path": "Multitrack > Metronome > Change Sound Type > Beeps",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35586,
+      "name": "Cymbals",
+      "path": "Multitrack > Metronome > Change Sound Type > Cymbals",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35587,
+      "name": "Kit",
+      "path": "Multitrack > Metronome > Change Sound Type > Kit",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35588,
+      "name": "Latin 1",
+      "path": "Multitrack > Metronome > Change Sound Type > Latin 1",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35589,
+      "name": "Latin 2",
+      "path": "Multitrack > Metronome > Change Sound Type > Latin 2",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35590,
+      "name": "Latin 3",
+      "path": "Multitrack > Metronome > Change Sound Type > Latin 3",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35591,
+      "name": "Sticks",
+      "path": "Multitrack > Metronome > Change Sound Type > Sticks",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35592,
+      "name": "Tabla",
+      "path": "Multitrack > Metronome > Change Sound Type > Tabla",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35180,
+      "name": "Enable Clip Keyframe Editing",
+      "path": "Multitrack > Enable Clip Keyframe Editing",
+      "category": "Multitrack",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35285,
+      "name": "Track Visibility Settings Apply to Mixer",
+      "path": "Multitrack > Track Visibility > Track Visibility Settings Apply to Mixer",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35519,
+      "name": "Preset 1",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 1",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35520,
+      "name": "Preset 2",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 2",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35521,
+      "name": "Preset 3",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 3",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35522,
+      "name": "Preset 4",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 4",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35523,
+      "name": "Preset 5",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 5",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35524,
+      "name": "Preset 6",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 6",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35525,
+      "name": "Preset 7",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 7",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35526,
+      "name": "Preset 8",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 8",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35527,
+      "name": "Preset 9",
+      "path": "Multitrack > Track Visibility > Track Load > Preset 9",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35510,
+      "name": "Preset 1",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 1",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35511,
+      "name": "Preset 2",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 2",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35512,
+      "name": "Preset 3",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 3",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35513,
+      "name": "Preset 4",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 4",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35514,
+      "name": "Preset 5",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 5",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35515,
+      "name": "Preset 6",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 6",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35516,
+      "name": "Preset 7",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 7",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35517,
+      "name": "Preset 8",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 8",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35518,
+      "name": "Preset 9",
+      "path": "Multitrack > Track Visibility > Track Save > Preset 9",
+      "category": "Multitrack",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35534,
+      "name": "Hide Selected Track",
+      "path": "Multitrack > Track Visibility > Hide Selected Track",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35528,
+      "name": "Show All Tracks",
+      "path": "Multitrack > Track Visibility > Show All Tracks",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35530,
+      "name": "Show Only Audio Tracks",
+      "path": "Multitrack > Track Visibility > Show Only Audio Tracks",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35529,
+      "name": "Show Only Bus Tracks",
+      "path": "Multitrack > Track Visibility > Show Only Bus Tracks",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35531,
+      "name": "Show Only Tracks with Clips",
+      "path": "Multitrack > Track Visibility > Show Only Tracks with Clips",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35532,
+      "name": "Show Only Tracks with Clips within Time Selection",
+      "path": "Multitrack > Track Visibility > Show Only Tracks with Clips within Time Selection",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35533,
+      "name": "Show Only Tracks with Clips at CTI",
+      "path": "Multitrack > Track Visibility > Show Only Tracks with Clips at CTI",
+      "category": "Multitrack",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35192,
+      "name": "Edit Source File",
+      "path": "Clip > Edit Source File",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35195,
+      "name": "Split",
+      "path": "Clip > Split",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35196,
+      "name": "Split All Clips under Playhead",
+      "path": "Clip > Split All Clips under Playhead",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35197,
+      "name": "Merge Clips",
+      "path": "Clip > Merge Clips",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35238,
+      "name": "Convert to Unique Copy",
+      "path": "Clip > Convert to Unique Copy",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35239,
+      "name": "Silence Time Selection in Selected Clips",
+      "path": "Clip > Silence Time Selection in Selected Clips",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35240,
+      "name": "Match Clip Loudness...",
+      "path": "Clip > Match Clip Loudness...",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35241,
+      "name": "Automatic Speech Alignment...",
+      "path": "Clip > Automatic Speech Alignment...",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35223,
+      "name": "Clip Gain",
+      "path": "Clip > Clip Gain",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35218,
+      "name": "Clip/Group Color...",
+      "path": "Clip > Clip/Group Color...",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35224,
+      "name": "Lock in Time",
+      "path": "Clip > Lock in Time",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35225,
+      "name": "Loop",
+      "path": "Clip > Loop",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35226,
+      "name": "Mute",
+      "path": "Clip > Mute",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35219,
+      "name": "Group Clips",
+      "path": "Clip > Groups > Group Clips",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35222,
+      "name": "Suspend Groups",
+      "path": "Clip > Groups > Suspend Groups",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35220,
+      "name": "Remove Focus Clip from Group",
+      "path": "Clip > Groups > Remove Focus Clip from Group",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35221,
+      "name": "Ungroup Selected Clips",
+      "path": "Clip > Groups > Ungroup Selected Clips",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35126,
+      "name": "Enable Global Clip Stretching",
+      "path": "Clip > Stretch > Enable Global Clip Stretching",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35128,
+      "name": "Realtime All Stretched Clips",
+      "path": "Clip > Stretch > Realtime All Stretched Clips",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35127,
+      "name": "Render All Stretched Clips",
+      "path": "Clip > Stretch > Render All Stretched Clips",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35129,
+      "name": "Off",
+      "path": "Clip > Stretch > Stretch Mode > Off",
+      "category": "Clip",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35130,
+      "name": "Realtime",
+      "path": "Clip > Stretch > Stretch Mode > Realtime",
+      "category": "Clip",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35131,
+      "name": "Rendered",
+      "path": "Clip > Stretch > Stretch Mode > Rendered",
+      "category": "Clip",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 35198,
+      "name": "Stretch Properties...",
+      "path": "Clip > Stretch > Stretch Properties...",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35200,
+      "name": "Enable Remix",
+      "path": "Clip > Remix > Enable Remix",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35201,
+      "name": "Split Remixed Clip into Segments",
+      "path": "Clip > Remix > Split Remixed Clip into Segments",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35202,
+      "name": "Revert Remix",
+      "path": "Clip > Remix > Revert Remix",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35199,
+      "name": "Remix Properties...",
+      "path": "Clip > Remix > Remix Properties...",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35207,
+      "name": "No Fade",
+      "path": "Clip > Fade In > No Fade",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35208,
+      "name": "Fade In",
+      "path": "Clip > Fade In > Fade In",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35209,
+      "name": "Crossfade",
+      "path": "Clip > Fade In > Crossfade",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35205,
+      "name": "Symmetrical",
+      "path": "Clip > Fade In > Symmetrical",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35206,
+      "name": "Asymmetrical",
+      "path": "Clip > Fade In > Asymmetrical",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35203,
+      "name": "Linear",
+      "path": "Clip > Fade In > Linear",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35204,
+      "name": "Cosine",
+      "path": "Clip > Fade In > Cosine",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35214,
+      "name": "No Fade",
+      "path": "Clip > Fade Out > No Fade",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35215,
+      "name": "Fade Out",
+      "path": "Clip > Fade Out > Fade Out",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35216,
+      "name": "Crossfade",
+      "path": "Clip > Fade Out > Crossfade",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35212,
+      "name": "Symmetrical",
+      "path": "Clip > Fade Out > Symmetrical",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35213,
+      "name": "Asymmetrical",
+      "path": "Clip > Fade Out > Asymmetrical",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35210,
+      "name": "Linear",
+      "path": "Clip > Fade Out > Linear",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35211,
+      "name": "Cosine",
+      "path": "Clip > Fade Out > Cosine",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35217,
+      "name": "Automatic Crossfades Enabled",
+      "path": "Clip > Automatic Crossfades Enabled",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35227,
+      "name": "Trim to Time Selection",
+      "path": "Clip > Trim > Trim to Time Selection",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35228,
+      "name": "Trim In Point to Playhead",
+      "path": "Clip > Trim > Trim In Point to Playhead",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35229,
+      "name": "Trim Out Point to Playhead",
+      "path": "Clip > Trim > Trim Out Point to Playhead",
+      "category": "Clip",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35230,
+      "name": "Nudge Left",
+      "path": "Clip > Nudge Left",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35231,
+      "name": "Nudge Right",
+      "path": "Clip > Nudge Right",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35234,
+      "name": "Nudge Up",
+      "path": "Clip > Nudge Up",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35235,
+      "name": "Nudge Down",
+      "path": "Clip > Nudge Down",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35236,
+      "name": "Bring Clip to Front",
+      "path": "Clip > Bring Clip to Front",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35237,
+      "name": "Send Clip to Back",
+      "path": "Clip > Send Clip to Back",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35193,
+      "name": "Reveal Clips In Files Panel",
+      "path": "Clip > Reveal Clips In Files Panel",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35194,
+      "name": "Link Media...",
+      "path": "Clip > Link Media...",
+      "category": "Clip",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35537,
+      "name": "Show Effects Rack",
+      "path": "Effects > Show Effects Rack",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35404,
+      "name": "Edit Clip Effects in Effects Rack",
+      "path": "Effects > Edit Clip Effects in Effects Rack",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35405,
+      "name": "Edit Track Effects in Effects Rack",
+      "path": "Effects > Edit Track Effects in Effects Rack",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35413,
+      "name": "Invert",
+      "path": "Effects > Invert",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35414,
+      "name": "Reverse",
+      "path": "Effects > Reverse",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35415,
+      "name": "Silence",
+      "path": "Effects > Silence",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35416,
+      "name": "Noise...",
+      "path": "Effects > Generate > Noise...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35417,
+      "name": "Speech...",
+      "path": "Effects > Generate > Speech...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35418,
+      "name": "Tones...",
+      "path": "Effects > Generate > Tones...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35419,
+      "name": "Match Loudness",
+      "path": "Effects > Match Loudness",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35467,
+      "name": "Auto Heal Selection",
+      "path": "Effects > Auto Heal Selection",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35421,
+      "name": "Amplify...",
+      "path": "Effects > Amplitude and Compression > Amplify...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35439,
+      "name": "Channel Mixer...",
+      "path": "Effects > Amplitude and Compression > Channel Mixer...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35473,
+      "name": "DeEsser...",
+      "path": "Effects > Amplitude and Compression > DeEsser...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35426,
+      "name": "Dynamics...",
+      "path": "Effects > Amplitude and Compression > Dynamics...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35425,
+      "name": "Dynamics Processing...",
+      "path": "Effects > Amplitude and Compression > Dynamics Processing...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35422,
+      "name": "Fade Envelope (process)...",
+      "path": "Effects > Amplitude and Compression > Fade Envelope (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35423,
+      "name": "Gain Envelope (process)...",
+      "path": "Effects > Amplitude and Compression > Gain Envelope (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35427,
+      "name": "Hard Limiter...",
+      "path": "Effects > Amplitude and Compression > Hard Limiter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35476,
+      "name": "Multiband Compressor...",
+      "path": "Effects > Amplitude and Compression > Multiband Compressor...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35451,
+      "name": "Normalize (process)...",
+      "path": "Effects > Amplitude and Compression > Normalize (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35479,
+      "name": "Single-band Compressor...",
+      "path": "Effects > Amplitude and Compression > Single-band Compressor...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35428,
+      "name": "Speech Volume Leveler...",
+      "path": "Effects > Amplitude and Compression > Speech Volume Leveler...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35481,
+      "name": "Tube-modeled Compressor...",
+      "path": "Effects > Amplitude and Compression > Tube-modeled Compressor...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35468,
+      "name": "Analog Delay...",
+      "path": "Effects > Delay and Echo > Analog Delay...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35437,
+      "name": "Delay...",
+      "path": "Effects > Delay and Echo > Delay...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35436,
+      "name": "Echo...",
+      "path": "Effects > Delay and Echo > Echo...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35458,
+      "name": "DeClicker (process)",
+      "path": "Effects > Diagnostics > DeClicker (process)",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35459,
+      "name": "DeClipper (process)",
+      "path": "Effects > Diagnostics > DeClipper (process)",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35460,
+      "name": "Delete Silence (process)",
+      "path": "Effects > Diagnostics > Delete Silence (process)",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35461,
+      "name": "Mark Audio (process)",
+      "path": "Effects > Diagnostics > Mark Audio (process)",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35433,
+      "name": "FFT Filter...",
+      "path": "Effects > Filter and EQ > FFT Filter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35430,
+      "name": "Graphic Equalizer (10 Bands)...",
+      "path": "Effects > Filter and EQ > Graphic Equalizer (10 Bands)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35431,
+      "name": "Graphic Equalizer (20 Bands)...",
+      "path": "Effects > Filter and EQ > Graphic Equalizer (20 Bands)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35432,
+      "name": "Graphic Equalizer (30 Bands)...",
+      "path": "Effects > Filter and EQ > Graphic Equalizer (30 Bands)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35434,
+      "name": "Notch Filter...",
+      "path": "Effects > Filter and EQ > Notch Filter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35429,
+      "name": "Parametric Equalizer...",
+      "path": "Effects > Filter and EQ > Parametric Equalizer...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35435,
+      "name": "Scientific Filter...",
+      "path": "Effects > Filter and EQ > Scientific Filter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35469,
+      "name": "Chorus...",
+      "path": "Effects > Modulation > Chorus...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35471,
+      "name": "Chorus/Flanger...",
+      "path": "Effects > Modulation > Chorus/Flanger...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35470,
+      "name": "Flanger...",
+      "path": "Effects > Modulation > Flanger...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35477,
+      "name": "Phaser...",
+      "path": "Effects > Modulation > Phaser...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35466,
+      "name": "Capture Noise Print",
+      "path": "Effects > Noise Reduction / Restoration > Capture Noise Print",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35463,
+      "name": "Noise Reduction (process)...",
+      "path": "Effects > Noise Reduction / Restoration > Noise Reduction (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35465,
+      "name": "Learn Sound Model",
+      "path": "Effects > Noise Reduction / Restoration > Learn Sound Model",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35464,
+      "name": "Sound Remover (process)...",
+      "path": "Effects > Noise Reduction / Restoration > Sound Remover (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35445,
+      "name": "Click/Pop Eliminator (process)...",
+      "path": "Effects > Noise Reduction / Restoration > Click/Pop Eliminator (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35462,
+      "name": "Hiss Reduction (process)...",
+      "path": "Effects > Noise Reduction / Restoration > Hiss Reduction (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35454,
+      "name": "DeNoise...",
+      "path": "Effects > Noise Reduction / Restoration > DeNoise...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35452,
+      "name": "Adaptive Noise Reduction...",
+      "path": "Effects > Noise Reduction / Restoration > Adaptive Noise Reduction...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35455,
+      "name": "Automatic Click Remover...",
+      "path": "Effects > Noise Reduction / Restoration > Automatic Click Remover...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35456,
+      "name": "Automatic Phase Correction...",
+      "path": "Effects > Noise Reduction / Restoration > Automatic Phase Correction...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35474,
+      "name": "DeHummer...",
+      "path": "Effects > Noise Reduction / Restoration > DeHummer...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35453,
+      "name": "DeReverb...",
+      "path": "Effects > Noise Reduction / Restoration > DeReverb...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35472,
+      "name": "Convolution Reverb...",
+      "path": "Effects > Reverb > Convolution Reverb...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35441,
+      "name": "Full Reverb...",
+      "path": "Effects > Reverb > Full Reverb...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35442,
+      "name": "Reverb...",
+      "path": "Effects > Reverb > Reverb...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35443,
+      "name": "Studio Reverb...",
+      "path": "Effects > Reverb > Studio Reverb...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35480,
+      "name": "Surround Reverb...",
+      "path": "Effects > Reverb > Surround Reverb...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35483,
+      "name": "Distortion...",
+      "path": "Effects > Special > Distortion...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35444,
+      "name": "Doppler Shifter (process)...",
+      "path": "Effects > Special > Doppler Shifter (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35475,
+      "name": "Guitar Suite...",
+      "path": "Effects > Special > Guitar Suite...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35478,
+      "name": "Mastering...",
+      "path": "Effects > Special > Mastering...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35484,
+      "name": "Loudness Meter...",
+      "path": "Effects > Special > Loudness Meter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35485,
+      "name": "Loudness Radar Meter...",
+      "path": "Effects > Special > Loudness Radar Meter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35482,
+      "name": "Vocal Enhancer...",
+      "path": "Effects > Special > Vocal Enhancer...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35438,
+      "name": "Center Channel Extractor...",
+      "path": "Effects > Stereo Imagery > Center Channel Extractor...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35446,
+      "name": "Graphic Phase Shifter...",
+      "path": "Effects > Stereo Imagery > Graphic Phase Shifter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35440,
+      "name": "Stereo Expander...",
+      "path": "Effects > Stereo Imagery > Stereo Expander...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35448,
+      "name": "Automatic Pitch Correction...",
+      "path": "Effects > Time and Pitch > Automatic Pitch Correction...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35449,
+      "name": "Manual Pitch Correction (process)...",
+      "path": "Effects > Time and Pitch > Manual Pitch Correction (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35424,
+      "name": "Pitch Bender (process)...",
+      "path": "Effects > Time and Pitch > Pitch Bender (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35450,
+      "name": "Pitch Shifter...",
+      "path": "Effects > Time and Pitch > Pitch Shifter...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35447,
+      "name": "Stretch and Pitch (process)...",
+      "path": "Effects > Time and Pitch > Stretch and Pitch (process)...",
+      "category": "Effects",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35420,
+      "name": "Audio Plug-In Manager...",
+      "path": "Effects > Audio Plug-In Manager...",
+      "category": "Effects",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35366,
+      "name": "Multitrack Editor",
+      "path": "View > Multitrack Editor",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35367,
+      "name": "Waveform Editor",
+      "path": "View > Waveform Editor",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35368,
+      "name": "CD Editor",
+      "path": "View > CD Editor",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35361,
+      "name": "Show Spectral Frequency Display",
+      "path": "View > Show Spectral Frequency Display",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35362,
+      "name": "Show Spectral Pitch Display",
+      "path": "View > Show Spectral Pitch Display",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35370,
+      "name": "Show Preview Editor",
+      "path": "View > Show Preview Editor",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35371,
+      "name": "Show HUD",
+      "path": "View > Show HUD",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35372,
+      "name": "Show Editor Panel Controls",
+      "path": "View > Show Editor Panel Controls",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35373,
+      "name": "Show Clip Volume Envelopes",
+      "path": "View > Show Clip Volume Envelopes",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35375,
+      "name": "Show Clip Pan Envelopes",
+      "path": "View > Show Clip Pan Envelopes",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35376,
+      "name": "Show Clip Effect Envelopes",
+      "path": "View > Show Clip Effect Envelopes",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35374,
+      "name": "Show Clip Gain Controls",
+      "path": "View > Show Clip Gain Controls",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35377,
+      "name": "Hide All Rack Effect Windows",
+      "path": "View > Hide All Rack Effect Windows",
+      "category": "View",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35317,
+      "name": "Zoom In (Time)",
+      "path": "View > Zoom > Zoom In (Time)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35323,
+      "name": "Zoom Out (Time)",
+      "path": "View > Zoom > Zoom Out (Time)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35324,
+      "name": "Zoom Reset (Time)",
+      "path": "View > Zoom > Zoom Reset (Time)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35346,
+      "name": "Zoom To Selected Clips",
+      "path": "View > Zoom > Zoom To Selected Clips",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35347,
+      "name": "Zoom In Full (Selected Track)",
+      "path": "View > Zoom > Zoom In Full (Selected Track)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35348,
+      "name": "Zoom Out Full (Selected Track)",
+      "path": "View > Zoom > Zoom Out Full (Selected Track)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35325,
+      "name": "Zoom Out Full (All Tracks)",
+      "path": "View > Zoom > Zoom Out Full (All Tracks)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35326,
+      "name": "Zoom Out Full (All Axes)",
+      "path": "View > Zoom > Zoom Out Full (All Axes)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35286,
+      "name": "Synchronize with Time Display Preferences",
+      "path": "View > Time Display > Synchronize with Time Display Preferences",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35289,
+      "name": "Decimal (mm:ss.ddd)",
+      "path": "View > Time Display > Decimal (mm:ss.ddd)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35290,
+      "name": "Compact Disc 75 fps",
+      "path": "View > Time Display > Compact Disc 75 fps",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35291,
+      "name": "SMPTE 59.94 fps",
+      "path": "View > Time Display > SMPTE 59.94 fps",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35292,
+      "name": "SMPTE 59.94 fps Drop",
+      "path": "View > Time Display > SMPTE 59.94 fps Drop",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35293,
+      "name": "SMPTE 30 fps",
+      "path": "View > Time Display > SMPTE 30 fps",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35294,
+      "name": "SMPTE 29.97 fps",
+      "path": "View > Time Display > SMPTE 29.97 fps",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35295,
+      "name": "SMPTE 29.97 fps Drop",
+      "path": "View > Time Display > SMPTE 29.97 fps Drop",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35296,
+      "name": "SMPTE 25 fps (EBU)",
+      "path": "View > Time Display > SMPTE 25 fps (EBU)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35297,
+      "name": "SMPTE 24 fps (Film)",
+      "path": "View > Time Display > SMPTE 24 fps (Film)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35298,
+      "name": "SMPTE 23.976 fps",
+      "path": "View > Time Display > SMPTE 23.976 fps",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35299,
+      "name": "Samples",
+      "path": "View > Time Display > Samples",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35300,
+      "name": "Bars and Beats",
+      "path": "View > Time Display > Bars and Beats",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35301,
+      "name": "Custom fps",
+      "path": "View > Time Display > Custom fps",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35302,
+      "name": "Edit Custom Frame Rate...",
+      "path": "View > Time Display > Edit Custom Frame Rate...",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35303,
+      "name": "Edit Tempo...",
+      "path": "View > Time Display > Edit Tempo...",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35388,
+      "name": "200% Scaling",
+      "path": "View > Video Display > 200% Scaling",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35389,
+      "name": "100% Scaling",
+      "path": "View > Video Display > 100% Scaling",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35390,
+      "name": "50% Scaling",
+      "path": "View > Video Display > 50% Scaling",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35391,
+      "name": "25% Scaling",
+      "path": "View > Video Display > 25% Scaling",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35392,
+      "name": "Best Fit Scaling",
+      "path": "View > Video Display > Best Fit Scaling",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35393,
+      "name": "Full Resolution",
+      "path": "View > Video Display > Full Resolution",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35394,
+      "name": "1/2 Resolution",
+      "path": "View > Video Display > 1/2 Resolution",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35395,
+      "name": "1/4 Resolution",
+      "path": "View > Video Display > 1/4 Resolution",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35396,
+      "name": "1/8 Resolution",
+      "path": "View > Video Display > 1/8 Resolution",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35397,
+      "name": "Full Resolution on Stop",
+      "path": "View > Video Display > Full Resolution on Stop",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35398,
+      "name": "Enable Full Screen",
+      "path": "View > Video Display > Mirror Full Screen > Enable Full Screen",
+      "category": "View",
+      "depth": 3,
+      "menu_enabled": true
+    },
+    {
+      "id": 40513,
+      "name": "Monitor 1: 2560 x 1600 (60 Hz)",
+      "path": "View > Video Display > Mirror Full Screen > Monitor 1: 2560 x 1600 (60 Hz)",
+      "category": "View",
+      "depth": 3,
+      "menu_enabled": false
+    },
+    {
+      "id": 35359,
+      "name": "Layered",
+      "path": "View > Waveform Channels > Layered",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35360,
+      "name": "Uniquely Colored",
+      "path": "View > Waveform Channels > Uniquely Colored",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35378,
+      "name": "Show",
+      "path": "View > Status Bar > Show",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35382,
+      "name": "Data Under Cursor",
+      "path": "View > Status Bar > Data Under Cursor",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35379,
+      "name": "Video Frame Rate",
+      "path": "View > Status Bar > Video Frame Rate",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35380,
+      "name": "File Status",
+      "path": "View > Status Bar > File Status",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35381,
+      "name": "Sample Type",
+      "path": "View > Status Bar > Sample Type",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35383,
+      "name": "Uncompressed Audio Size",
+      "path": "View > Status Bar > Uncompressed Audio Size",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35384,
+      "name": "Duration",
+      "path": "View > Status Bar > Duration",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35385,
+      "name": "Free Space",
+      "path": "View > Status Bar > Free Space",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35386,
+      "name": "Free Space (Time)",
+      "path": "View > Status Bar > Free Space (Time)",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35387,
+      "name": "Detect Dropped Samples",
+      "path": "View > Status Bar > Detect Dropped Samples",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35304,
+      "name": "Meter Input Signal",
+      "path": "View > Metering > Meter Input Signal",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35305,
+      "name": "Reset Indicators",
+      "path": "View > Metering > Reset Indicators",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35306,
+      "name": "Show Valleys",
+      "path": "View > Metering > Show Valleys",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35307,
+      "name": "Show Color Gradient",
+      "path": "View > Metering > Show Color Gradient",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35308,
+      "name": "Show LED Meters",
+      "path": "View > Metering > Show LED Meters",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35309,
+      "name": "120 dB Range",
+      "path": "View > Metering > 120 dB Range",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35310,
+      "name": "96 dB Range",
+      "path": "View > Metering > 96 dB Range",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35311,
+      "name": "72 dB Range",
+      "path": "View > Metering > 72 dB Range",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35312,
+      "name": "60 dB Range",
+      "path": "View > Metering > 60 dB Range",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35313,
+      "name": "48 dB Range",
+      "path": "View > Metering > 48 dB Range",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35314,
+      "name": "24 dB Range",
+      "path": "View > Metering > 24 dB Range",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35315,
+      "name": "Dynamic Peaks",
+      "path": "View > Metering > Dynamic Peaks",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35316,
+      "name": "Static Peaks",
+      "path": "View > Metering > Static Peaks",
+      "category": "View",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35501,
+      "name": "Advanced Mixing",
+      "path": "Window > Workspace > Advanced Mixing",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35502,
+      "name": "Classic",
+      "path": "Window > Workspace > Classic",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35503,
+      "name": "Default",
+      "path": "Window > Workspace > Default",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35504,
+      "name": "Edit Audio to Video",
+      "path": "Window > Workspace > Edit Audio to Video",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35505,
+      "name": "Essential Video Mixing",
+      "path": "Window > Workspace > Essential Video Mixing",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35506,
+      "name": "Loudness",
+      "path": "Window > Workspace > Loudness",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35507,
+      "name": "Mastering and Analysis",
+      "path": "Window > Workspace > Mastering and Analysis",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35508,
+      "name": "Maximum Editing (Dual Monitor)",
+      "path": "Window > Workspace > Maximum Editing (Dual Monitor)",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35509,
+      "name": "Radio Production",
+      "path": "Window > Workspace > Radio Production",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 41027,
+      "name": "Restoration",
+      "path": "Window > Workspace > Restoration",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 41028,
+      "name": "Simple Editing",
+      "path": "Window > Workspace > Simple Editing",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35002,
+      "name": "Reset to Saved Layout",
+      "path": "Window > Workspace > Reset to Saved Layout",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35003,
+      "name": "Save Changes to this Workspace",
+      "path": "Window > Workspace > Save Changes to this Workspace",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35001,
+      "name": "Save as New Workspace...",
+      "path": "Window > Workspace > Save as New Workspace...",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35004,
+      "name": "Edit Workspaces...",
+      "path": "Window > Workspace > Edit Workspaces...",
+      "category": "Window",
+      "depth": 2,
+      "menu_enabled": true
+    },
+    {
+      "id": 35535,
+      "name": "Minimize",
+      "path": "Window > Minimize",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35490,
+      "name": "Find Extensions on Exchange...",
+      "path": "Window > Find Extensions on Exchange...",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35552,
+      "name": "Amplitude Statistics",
+      "path": "Window > Amplitude Statistics",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35553,
+      "name": "Batch Process",
+      "path": "Window > Batch Process",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35551,
+      "name": "Diagnostics",
+      "path": "Window > Diagnostics",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35536,
+      "name": "Editor",
+      "path": "Window > Editor",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35537,
+      "name": "Effects Rack",
+      "path": "Window > Effects Rack",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35556,
+      "name": "Essential Sound",
+      "path": "Window > Essential Sound",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35554,
+      "name": "Events",
+      "path": "Window > Events",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35550,
+      "name": "Favorites",
+      "path": "Window > Favorites",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35547,
+      "name": "Files",
+      "path": "Window > Files",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35555,
+      "name": "Frequency Analysis",
+      "path": "Window > Frequency Analysis",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35549,
+      "name": "History",
+      "path": "Window > History",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35539,
+      "name": "Level Meters",
+      "path": "Window > Level Meters",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35557,
+      "name": "Markers",
+      "path": "Window > Markers",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35558,
+      "name": "Match Loudness",
+      "path": "Window > Match Loudness",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35548,
+      "name": "Media Browser",
+      "path": "Window > Media Browser",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35559,
+      "name": "Metadata",
+      "path": "Window > Metadata",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35546,
+      "name": "Mixer",
+      "path": "Window > Mixer",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35560,
+      "name": "Phase Analysis",
+      "path": "Window > Phase Analysis",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35561,
+      "name": "Phase Meter",
+      "path": "Window > Phase Meter",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35562,
+      "name": "Playlist",
+      "path": "Window > Playlist",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35540,
+      "name": "Properties",
+      "path": "Window > Properties",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35545,
+      "name": "Selection/View",
+      "path": "Window > Selection/View",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35538,
+      "name": "Time",
+      "path": "Window > Time",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35565,
+      "name": "Tools",
+      "path": "Window > Tools",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35563,
+      "name": "Track Panner",
+      "path": "Window > Track Panner",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35564,
+      "name": "Tracks",
+      "path": "Window > Tracks",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35543,
+      "name": "Transport",
+      "path": "Window > Transport",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35566,
+      "name": "Video",
+      "path": "Window > Video",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35544,
+      "name": "Zoom",
+      "path": "Window > Zoom",
+      "category": "Window",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35491,
+      "name": "Adobe Audition Help...",
+      "path": "Help > Adobe Audition Help...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35498,
+      "name": "Adobe Audition Support Center...",
+      "path": "Help > Adobe Audition Support Center...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35495,
+      "name": "Keyboard Shortcuts...",
+      "path": "Help > Keyboard Shortcuts...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35500,
+      "name": "Audition Learn...",
+      "path": "Help > Audition Learn...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35493,
+      "name": "Download Sound Effects and More...",
+      "path": "Help > Download Sound Effects and More...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35499,
+      "name": "Adobe Audition User Forums...",
+      "path": "Help > Adobe Audition User Forums...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35496,
+      "name": "Reveal Log Files...",
+      "path": "Help > Reveal Log Files...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35497,
+      "name": "Provide Feedback...",
+      "path": "Help > Provide Feedback...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35492,
+      "name": "Developer Center...",
+      "path": "Help > Developer Center...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 35489,
+      "name": "About Audition...",
+      "path": "Help > About Audition...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 41029,
+      "name": "Manage My Account...",
+      "path": "Help > Manage My Account...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 41030,
+      "name": "Sign In...",
+      "path": "Help > Sign In...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    },
+    {
+      "id": 41031,
+      "name": "Updates...",
+      "path": "Help > Updates...",
+      "category": "Help",
+      "depth": 1,
+      "menu_enabled": true
+    }
+  ],
+  "discovery": "Win32 GetMenu read-only"
+}

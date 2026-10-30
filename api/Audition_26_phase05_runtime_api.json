@@ -1,0 +1,636 @@
+{
+  "product_version": "Audition 26.0.0.56",
+  "limitations": "Complete for reflected objects only; not full undistributed AMIO SDK or command registry",
+  "objects": {
+    "Application": {
+      "methods": [
+        "invokeCommand",
+        "isCommandChecked",
+        "isCommandEnabled",
+        "openDocument",
+        "quit",
+        "addEventListener",
+        "removeEventListener",
+        "dispatchEvent"
+      ],
+      "properties": [
+        "activeDocument",
+        "buildNumber",
+        "documents",
+        "localPreferences",
+        "location",
+        "name",
+        "platform",
+        "transport",
+        "version"
+      ],
+      "reflection_name": "APPLICATION"
+    },
+    "Transport": {
+      "methods": [
+        "pause",
+        "play",
+        "record",
+        "stop",
+        "addEventListener",
+        "removeEventListener",
+        "dispatchEvent"
+      ],
+      "properties": [
+        "isPaused",
+        "isPlayEnabled",
+        "isPlaying",
+        "isRecordEnabled",
+        "isRecording",
+        "loop"
+      ],
+      "reflection_name": "TRANSPORT"
+    },
+    "WaveDocument": {
+      "methods": [
+        "activate",
+        "addMarker",
+        "applyFavorite",
+        "closeDocument",
+        "exportDocument",
+        "saveAs",
+        "saveAsDocument",
+        "saveDocument",
+        "addEventListener",
+        "removeEventListener"
+      ],
+      "properties": [
+        "_ancestor",
+        "audioFormat",
+        "busyProgress",
+        "dirty",
+        "displayName",
+        "duration",
+        "exists",
+        "fileFormat",
+        "id",
+        "isBusy",
+        "isCompoundSubDocument",
+        "markers",
+        "metadata",
+        "parentCompoundDocument",
+        "path",
+        "playheadPosition",
+        "sampleRate"
+      ],
+      "reflection_name": "ACTIVE"
+    },
+    "AudioFormat": {
+      "methods": [],
+      "properties": [
+        "bitDepth",
+        "channelLayout",
+        "sampleRate"
+      ],
+      "reflection_name": "AUDIO_FORMAT"
+    },
+    "AudioFileFormat": {
+      "methods": [],
+      "properties": [
+        "extensions",
+        "id",
+        "title"
+      ],
+      "reflection_name": "FILE_FORMAT"
+    },
+    "Metadata": {
+      "methods": [],
+      "properties": [
+        "xmp"
+      ],
+      "reflection_name": "METADATA"
+    },
+    "Preferences": {
+      "methods": [
+        "getBoolValue",
+        "getNumberValue",
+        "getStringValue",
+        "setBoolValue",
+        "setNumberValue",
+        "setStringValue"
+      ],
+      "properties": [],
+      "reflection_name": "LOCAL_PREFERENCES"
+    },
+    "DocumentOpenParameter": {
+      "methods": [],
+      "properties": [
+        "path"
+      ],
+      "reflection_name": "OPEN_PARAMETER"
+    },
+    "SampleTypeConvertParameters": {
+      "methods": [],
+      "properties": [
+        "DITHERTYPE_GAUSSIAN",
+        "DITHERTYPE_GAUSSIAN_SHAPED",
+        "DITHERTYPE_TRIANGULAR",
+        "DITHERTYPE_TRIANGULARS_HAPED",
+        "DITHER_ADAPTIVE_MODE_CONSTANT",
+        "DITHER_ADAPTIVE_MODE_DYNAMIC_EX",
+        "DITHER_ADAPTIVE_MODE_DYNAMIC_LIGHT",
+        "DITHER_ADAPTIVE_MODE_DYNAMIC_MEDIUM",
+        "DITHER_ADAPTIVE_MODE_OFF",
+        "NOISESHAPING_HIGH_PASS",
+        "NOISESHAPING_LIGHT_SLOPE",
+        "NOISESHAPING_NEUTRAL_HEAVY",
+        "NOISESHAPING_NEUTRAL_LIGHT",
+        "NOISESHAPING_NONE",
+        "NOISESHAPING_USHAPED_DEEP",
+        "NOISESHAPING_USHAPED_MEDIUM",
+        "NOISESHAPING_USHAPED_SHALLOW",
+        "NOISESHAPING_WEIGHTED_HEAVY",
+        "NOISESHAPING_WEIGHTED_LIGHT",
+        "SOURCE_BIT_DEPTH",
+        "SOURCE_CHANNEL_LAYOUT",
+        "SOURCE_SAMPLE_RATE",
+        "bitDepth",
+        "channelLayout",
+        "ditherAdaptiveMode",
+        "ditherCrossover",
+        "ditherNoiseShaping",
+        "ditherStrength",
+        "ditherType",
+        "leftMix",
+        "resampleQuality",
+        "rightMix",
+        "sampleRate",
+        "useDithering",
+        "useResampleFilter"
+      ],
+      "reflection_name": "SAMPLE_TYPE"
+    },
+    "WaveDocumentSaveAsParameters": {
+      "methods": [],
+      "properties": [
+        "fileFormat",
+        "includeMetadata",
+        "sampleTypeConversion"
+      ],
+      "reflection_name": "SAVE_PARAMETERS"
+    },
+    "Marker": {
+      "methods": [],
+      "properties": [
+        "description",
+        "length",
+        "name",
+        "start",
+        "type",
+        "reflect"
+      ],
+      "reflection_name": "FIRST_MARKER"
+    }
+  },
+  "known_command_probes": {
+    "COMMAND_Edit.SelectAll": "true",
+    "COMMAND_Edit.Delete": "false",
+    "COMMAND_Edit.Cut": "false",
+    "COMMAND_Edit.Copy": "true",
+    "COMMAND_Edit.Paste": "false",
+    "COMMAND_Edit.InsertSilence": "true",
+    "COMMAND_Edit.InsertIntoNewSession": "true",
+    "COMMAND_File.Save": "false",
+    "COMMAND_File.SaveAs": "true",
+    "COMMAND_File.Close": "true",
+    "COMMAND_View.SpectralFrequencyDisplay": "false",
+    "COMMAND_Favorites.Normalize": "false",
+    "COMMAND_Effects.Amplify": "true",
+    "COMMAND_File.Export": "false",
+    "COMMAND_Multitrack.MixdownNewFileEntire": "false"
+  },
+  "controller_methods": [
+    {
+      "method": "activity_regions",
+      "signature": "(path: 'str | Path', *, threshold_dbfs: 'float' = -35.0, window_ms: 'int' = 20, min_active_ms: 'int' = 80) -> 'dict'"
+    },
+    {
+      "method": "add_marker",
+      "signature": "(self, start_samples: 'int', duration_samples: 'int' = 0, name: 'str' = '', marker_type: 'str' = 'Cue', description: 'str' = '') -> 'dict[str, str]'"
+    },
+    {
+      "method": "apply_favorite",
+      "signature": "(self, name: 'str', output_path: 'str | None' = None, timeout: 'float' = 30.0) -> 'dict[str, str]'"
+    },
+    {
+      "method": "audio_forensics",
+      "signature": "(source, *, window_ms=100, true_peak_factor=4)"
+    },
+    {
+      "method": "audio_quality_gate",
+      "signature": "(path: 'str | Path', *, max_peak_dbfs: 'float' = 0.0, max_dc: 'float' = 0.01, allow_clips: 'int' = 0) -> 'dict'"
+    },
+    {
+      "method": "audio_signal_report",
+      "signature": "(source: 'str | Path', *, fft_window: 'int' = 4096) -> 'dict'"
+    },
+    {
+      "method": "audit_native_session",
+      "signature": "(session, *, reject_hot_eq=True)"
+    },
+    {
+      "method": "audition_command_probe",
+      "signature": "(self, commands: 'list[str]') -> 'dict'"
+    },
+    {
+      "method": "audition_native_favorite_export",
+      "signature": "(self, source: 'str | Path', output: 'str | Path', *, favorite: 'str', confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "audition_native_marker_export",
+      "signature": "(self, source: 'str | Path', output: 'str | Path', *, start_samples: 'int', duration_samples: 'int' = 0, name: 'str' = 'QA Marker', confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "audition_native_resample_export",
+      "signature": "(self, source: 'str | Path', output: 'str | Path', *, sample_rate: 'int' = 44100, bit_depth: 'int' = 24, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "audition_reflect",
+      "signature": "(self, object_name: 'str' = 'application') -> 'dict'"
+    },
+    {
+      "method": "batch_dsp",
+      "signature": "(sources: 'list[str | Path]', output_folder: 'str | Path', operations: 'list[dict]', *, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "batch_favorite",
+      "signature": "(self, paths: 'list[str]', favorite: 'str', output_dir: 'str', suffix: 'str' = '_processed') -> 'dict[str, str]'"
+    },
+    {
+      "method": "create_multitrack_from_current",
+      "signature": "(self, session_name: 'str', timeout: 'float' = 10.0) -> 'None'"
+    },
+    {
+      "method": "create_qa_session_package",
+      "signature": "(source, destination, *, confirm=False)"
+    },
+    {
+      "method": "deliver_audio_batch",
+      "signature": "(sources: 'list[str | Path]', directory, *, preset='podcast_16', formats=('wav', 'mp3'), denoise=False, confirm=False)"
+    },
+    {
+      "method": "duck_music_under_dialogue",
+      "signature": "(dialogue, background, destination, *, music_gain_db=-9.0, voice_gain_db=0.0, threshold=0.025, ratio=8.0, attack_ms=15, release_ms=300, confirm=False)"
+    },
+    {
+      "method": "edit_sesx",
+      "signature": "(session_path: 'str', *, output_path: 'str | None' = None, track_index: 'int' = 0, track_volume: 'float | None' = None, pan: 'float | None' = None, clip_index: 'int' = 0, clip_gain: 'float | None' = None, fade_in_samples: 'int | None' = None, fade_out_start_samples: 'int | None' = None, eq_band3_gain: 'float | None' = None, enable_eq: 'bool | None' = None) -> 'str'"
+    },
+    {
+      "method": "export_audio_qc_report",
+      "signature": "(source, destination, *, profile='podcast', confirm=False)"
+    },
+    {
+      "method": "export_native_marker_chapters",
+      "signature": "(session, rendered_audio, directory, *, fade_ms=5, confirm=False)"
+    },
+    {
+      "method": "ffmpeg_environment",
+      "signature": "() -> 'dict'"
+    },
+    {
+      "method": "ffprobe_media",
+      "signature": "(path: 'str | Path') -> 'dict'"
+    },
+    {
+      "method": "inspect_native_clips_advanced",
+      "signature": "(source)"
+    },
+    {
+      "method": "inspect_native_eq",
+      "signature": "(session, *, track=0, kind='audioTrack')"
+    },
+    {
+      "method": "inspect_native_sesx",
+      "signature": "(source) -> 'dict'"
+    },
+    {
+      "method": "inspect_session_routes",
+      "signature": "(source)"
+    },
+    {
+      "method": "inspect_sesx",
+      "signature": "(path: 'str | Path') -> 'dict'"
+    },
+    {
+      "method": "lookup_native_menu",
+      "signature": "(self, keyword: 'str', *, max_results: 'int' = 50)"
+    },
+    {
+      "method": "master_loudness",
+      "signature": "(source, destination, *, target_lufs=-16.0, ceiling_dbtp=-1.5, rate=48000, confirm=False)"
+    },
+    {
+      "method": "measure_lufs",
+      "signature": "(path: 'str') -> 'dict[str, float | int]'"
+    },
+    {
+      "method": "measure_r128_ffmpeg",
+      "signature": "(source, *, timeout=45)"
+    },
+    {
+      "method": "mix_audio_stems",
+      "signature": "(stems: 'list[dict]', destination, *, rate=48000, output_ceiling=0.9, confirm=False)"
+    },
+    {
+      "method": "mixdown_to_wave",
+      "signature": "(self, output_path: 'str', wait_seconds: 'float' = 1.2) -> 'dict[str, str]'"
+    },
+    {
+      "method": "multitrack_track_edit",
+      "signature": "(self, track_index: 'int' = 0, *, name: 'str | None' = None, mute: 'bool | None' = None, solo: 'bool | None' = None, armed: 'bool | None' = None, visible: 'bool | None' = None, clip_index: 'int | None' = None, clip_start_samples: 'int | None' = None) -> 'dict[str, str]'"
+    },
+    {
+      "method": "native_add_track_qa",
+      "signature": "(self, session_name: 'str', *, label: 'str' = 'QA Added Track', confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_menu_catalog",
+      "signature": "(self)"
+    },
+    {
+      "method": "native_move_clip_qa",
+      "signature": "(self, session_name: 'str', from_track: 'int', to_track: 'int', *, clip_index: 'int' = 0, start_samples: 'int | None' = None, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_add_bus_qa",
+      "signature": "(self, session_name: 'str', bus_name: 'str', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_bus_marker_inventory",
+      "signature": "(self, session_name: 'str')"
+    },
+    {
+      "method": "native_multitrack_edit_qa",
+      "signature": "(self, session_name: 'str', track_index: 'int', *, name: 'str | None' = None, mute: 'bool | None' = None, solo: 'bool | None' = None, clip_index: 'int | None' = None, clip_start_samples: 'int | None' = None, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "native_multitrack_marker_qa",
+      "signature": "(self, session_name: 'str', *, start_samples: 'int', duration_samples: 'int' = 0, label: 'str' = 'QA Marker', description: 'str' = 'Audition QA', confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_mixdown_qa",
+      "signature": "(self, session_name: 'str', output: 'str | Path', *, confirm: 'bool' = False, poll_seconds: 'float' = 3.0)"
+    },
+    {
+      "method": "native_multitrack_remove_bus_qa",
+      "signature": "(self, session_name: 'str', bus_index: 'int', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_multitrack_snapshot",
+      "signature": "(self, session_name: 'str')"
+    },
+    {
+      "method": "native_remove_empty_track_qa",
+      "signature": "(self, session_name: 'str', track_index: 'int', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "native_sesx_markers_xmp",
+      "signature": "(session)"
+    },
+    {
+      "method": "normalize_lufs_fallback",
+      "signature": "(input_path: 'str', output_path: 'str', target_lufs: 'float' = -16.0, true_peak_limit: 'float' = -1.0) -> 'dict[str, float | str]'"
+    },
+    {
+      "method": "open_document",
+      "signature": "(self, path: 'str') -> 'dict[str, str]'"
+    },
+    {
+      "method": "open_match_loudness_panel",
+      "signature": "(self) -> 'None'"
+    },
+    {
+      "method": "patch_native_clip_advanced",
+      "signature": "(source, destination, edits: 'list[dict]', *, confirm=False)"
+    },
+    {
+      "method": "patch_native_eq_normalized",
+      "signature": "(source, destination, settings: 'dict', *, track=0, kind='audioTrack', enabled=True, confirm=False)"
+    },
+    {
+      "method": "patch_native_sesx",
+      "signature": "(source, destination, edits: 'list[dict]', *, confirm: 'bool' = False)"
+    },
+    {
+      "method": "patch_session_bus_route",
+      "signature": "(source, destination, *, track_index=0, bus_index=0, confirm=False)"
+    },
+    {
+      "method": "patch_sesx",
+      "signature": "(source: 'str | Path', dest: 'str | Path', changes: 'list[dict]', *, confirm=False) -> 'dict'"
+    },
+    {
+      "method": "podcast_sidechain_delivery",
+      "signature": "(dialogue, music, destination, *, target_lufs=-16, ceiling_dbtp=-1.5, confirm=False)"
+    },
+    {
+      "method": "process_wav",
+      "signature": "(source: 'str | Path', destination: 'str | Path', operations: 'list[dict]', *, confirm: 'bool' = False, output_format: 'str' = 'pcm16') -> 'dict'"
+    },
+    {
+      "method": "qc_audio_profile",
+      "signature": "(source, profile='podcast', *, profile_override=None)"
+    },
+    {
+      "method": "remove_unused_bus_sesx",
+      "signature": "(source, destination, *, bus_index: 'int', expected_name: 'str', confirm: 'bool' = False)"
+    },
+    {
+      "method": "save_as",
+      "signature": "(self, path: 'str') -> 'dict[str, str]'"
+    },
+    {
+      "method": "save_wave_converted",
+      "signature": "(self, path: 'str', sample_rate: 'int | None' = None, bit_depth: 'int | None' = None, dither: 'bool' = True, resample_quality: 'int' = 100) -> 'dict[str, str]'"
+    },
+    {
+      "method": "select_spot_healing_brush",
+      "signature": "(self) -> 'None'"
+    },
+    {
+      "method": "send_menu_command",
+      "signature": "(self, command_id: 'int') -> 'None'"
+    },
+    {
+      "method": "set_playhead",
+      "signature": "(self, samples: 'int') -> 'dict[str, str]'"
+    },
+    {
+      "method": "speech_cleanup",
+      "signature": "(source, destination, *, highpass_hz=85.0, denoise_db=9.0, threshold_db=-22.0, ratio=2.5, confirm=False)"
+    },
+    {
+      "method": "status",
+      "signature": "(self) -> 'dict[str, str]'"
+    },
+    {
+      "method": "toggle_spectral_display",
+      "signature": "(self) -> 'None'"
+    },
+    {
+      "method": "transcode_audio",
+      "signature": "(source: 'str | Path', destination: 'str | Path', *, rate: 'int' = 48000, channels: 'int' = 2, bitrate_kbps: 'int' = 192, confirm: 'bool' = False) -> 'dict'"
+    },
+    {
+      "method": "transport",
+      "signature": "(self, action: 'str') -> 'dict[str, str]'"
+    },
+    {
+      "method": "verify_qa_session_package",
+      "signature": "(directory)"
+    },
+    {
+      "method": "wav_stats",
+      "signature": "(path: 'str') -> 'dict[str, float | int | str]'"
+    },
+    {
+      "method": "write_native_session_audit",
+      "signature": "(session, destination, *, confirm=False)"
+    }
+  ],
+  "extension_families": [
+    "ExtendScript DOM",
+    "CEP panels",
+    "Audition Application Commands",
+    "Win32 UI bridge",
+    "AMIO C++ file/session SDK",
+    "Control Surface C++ SDK",
+    "SESX offline XML",
+    "DSP SciPy",
+    "FFmpeg Debian"
+  ],
+  "features": 332,
+  "counts": {
+    "blocked_host_runtime": 1,
+    "blocked_native_api": 1,
+    "cep_install_pending": 14,
+    "existing_legacy_recheck": 13,
+    "not_verified": 68,
+    "partial_native_live": 1,
+    "sdk_or_hardware_required": 13,
+    "ui_or_media_pending": 93,
+    "verified_hybrid_sesx_reopened": 13,
+    "verified_installed_not_loaded": 1,
+    "verified_native_live": 31,
+    "verified_offline": 66,
+    "verified_offline_ffmpeg": 9,
+    "verified_offline_heuristic": 4,
+    "verified_readonly_host": 2,
+    "verified_static_only": 2
+  },
+  "multitrack_reflected_objects": {
+    "WaveDocument": {
+      "properties": [],
+      "methods": []
+    },
+    "MultitrackDocument": {
+      "properties": [],
+      "methods": []
+    },
+    "AudioTrackCollection": {
+      "properties": [
+        ".index",
+        "length",
+        "length",
+        "__proto__"
+      ],
+      "methods": [
+        "add",
+        "getAudioTrack",
+        "remove"
+      ]
+    },
+    "AudioTrack": {
+      "properties": [
+        "_ancestor",
+        "armed",
+        "audioClipSelection",
+        "audioClips",
+        "audioFormat",
+        "id",
+        "mute",
+        "name",
+        "selected",
+        "solo",
+        "type",
+        "visible",
+        "__proto__"
+      ],
+      "methods": [
+        "addEventListener",
+        "removeEventListener"
+      ]
+    },
+    "PannerSettings": {
+      "properties": [
+        "gain",
+        "mode",
+        "__proto__"
+      ],
+      "methods": []
+    },
+    "AudioClipSelectionCollection": {
+      "properties": [
+        ".index",
+        "length",
+        "length",
+        "__proto__"
+      ],
+      "methods": [
+        "add",
+        "clear",
+        "remove"
+      ]
+    },
+    "AudioClipCollection": {
+      "properties": [
+        ".index",
+        "length",
+        "length",
+        "__proto__"
+      ],
+      "methods": [
+        "add",
+        "remove"
+      ]
+    },
+    "AudioClip": {
+      "properties": [
+        "_ancestor",
+        "audioFormat",
+        "duration",
+        "id",
+        "link",
+        "name",
+        "selected",
+        "sourceChannelRouting",
+        "startTime",
+        "__proto__"
+      ],
+      "methods": [
+        "addEventListener",
+        "removeEventListener"
+      ]
+    },
+    "AudioFormat": {
+      "properties": [
+        "bitDepth",
+        "channelLayout",
+        "sampleRate",
+        "__proto__"
+      ],
+      "methods": []
+    }
+  },
+  "as_of": "2026-10-10",
+  "native_menu_command_count": 474,
+  "native_menu_unique_ids": 473,
+  "latest_phase": 5,
+  "cep_live_loaded": false
+}

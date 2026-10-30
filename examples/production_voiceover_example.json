@@ -1,0 +1,71 @@
+{
+  "inputs": {
+    "voice": "D:\\computer\\Adobe\\Audition\\tests\\fixtures\\accept_au_sine_48k_mono.wav"
+  },
+  "steps": [
+    {
+      "id": "repair",
+      "kind": "effects",
+      "source": "voice",
+      "format": "wav",
+      "params": {
+        "effects": [
+          {
+            "effect": "highpass",
+            "hz": 85
+          },
+          {
+            "effect": "fft_denoise",
+            "reduction_db": 6
+          },
+          {
+            "effect": "compressor",
+            "threshold_db": -24,
+            "ratio": 2.5
+          }
+        ]
+      }
+    },
+    {
+      "id": "master",
+      "kind": "master",
+      "source": "@repair",
+      "format": "wav",
+      "params": {
+        "target_lufs": -16,
+        "ceiling_dbtp": -1.5
+      }
+    },
+    {
+      "id": "tagged",
+      "kind": "metadata",
+      "source": "@master",
+      "format": "wav",
+      "params": {
+        "bwf": true,
+        "tags": {
+          "title": "QA Voiceover",
+          "description": "Audio production provenance"
+        }
+      }
+    },
+    {
+      "id": "qc",
+      "kind": "qc",
+      "source": "@tagged",
+      "format": "json",
+      "params": {
+        "profile": "podcast"
+      }
+    },
+    {
+      "id": "meter",
+      "kind": "r128",
+      "source": "@tagged",
+      "format": "json",
+      "params": {
+        "max_points": 1000
+      }
+    }
+  ]
+}
